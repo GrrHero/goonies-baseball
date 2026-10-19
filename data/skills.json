@@ -9,6 +9,7 @@
       "emoji": "🍿",
       "category": "Fielding",
       "cue": "Popcorn",
+      "color": "#ff6b35",
       "why": "Every play starts here. A good ready position means kids can move to the ball instead of reacting late from a standstill.",
       "steps": [
         "Feet wider than shoulders, weight on the balls of the feet.",
@@ -43,7 +44,29 @@
         "how": "Parent claps \"Popcorn!\" while the child jogs in place or around the room. Hold ready 2 seconds. Add: after the pop, point left/right for two shuffle steps. Finish with 5 quiet \"statue\" holds."
       },
       "level_up": "After popping, shuffle two steps the way you point, then pop again — without standing up first.",
-      "videos": []
+      "videos": [
+        {
+          "id": "OlI5Vs8kIrU",
+          "title": "The Ready Position Drill 💪😎 #baseball #fieldingdrills #sports #baseballplayer #baseballshorts",
+          "channel": "Bobby Brown Baseball",
+          "url": "https://www.youtube.com/watch?v=OlI5Vs8kIrU",
+          "thumb": "https://img.youtube.com/vi/OlI5Vs8kIrU/hqdefault.jpg"
+        },
+        {
+          "id": "EZtJ9JNPE2k",
+          "title": "3 SIMPLE Baseball Fielding Drills For Youth Players",
+          "channel": "Ultimate Baseball Training",
+          "url": "https://www.youtube.com/watch?v=EZtJ9JNPE2k",
+          "thumb": "https://img.youtube.com/vi/EZtJ9JNPE2k/hqdefault.jpg"
+        },
+        {
+          "id": "L4lO3t1YHxs",
+          "title": "Coaching Beginner Baseball | How to Field (Pro Speed Baseball)",
+          "channel": "Pro Speed Baseball",
+          "url": "https://www.youtube.com/watch?v=L4lO3t1YHxs",
+          "thumb": "https://img.youtube.com/vi/L4lO3t1YHxs/hqdefault.jpg"
+        }
+      ]
     },
     {
       "id": "throwing",
@@ -51,6 +74,7 @@
       "emoji": "🎯",
       "category": "Throwing",
       "cue": "Point, Step, Throw",
+      "color": "#1e88e5",
       "why": "Accurate throws get outs and keep teammates safe. At 8U, kids need a simple pattern: aim, step, throw over the top — not a push or sidearm dart.",
       "steps": [
         "Grip: fingertips on the seams (two or four seam is fine); not deep in the palm.",
@@ -76,7 +100,7 @@
         "name": "Partner Target Lines",
         "time": "5 min",
         "setup": "Two parallel lines of kids, 20–30 ft apart (closer for newer throwers). One ball per pair.",
-        "how": "On \"Point!\" kids freeze aimed; on \"Throw!\" they complete the throw. Rotate partners every 6 throws. Coaches walk the middle cueing — not long lines waiting. Extra coach = quick \"fix it\" station to the side for anyone struggling."
+        "how": "On \"Point!\" kids freeze aimed; on \"Throw!\" they complete the throw. Rotate partners every 6 throws. Coaches walk the middle cueing — not long lines waiting."
       },
       "home_drill": {
         "name": "Knock Down the Castle",
@@ -94,11 +118,18 @@
           "thumb": "https://img.youtube.com/vi/o3Qz0LtQZ_I/hqdefault.jpg"
         },
         {
-          "id": "bjJs_yu6fvw",
-          "title": "Baseball Throwing | Basic Techniques",
-          "channel": "Schupak Sports",
-          "url": "https://www.youtube.com/watch?v=bjJs_yu6fvw",
-          "thumb": "https://img.youtube.com/vi/bjJs_yu6fvw/hqdefault.jpg"
+          "id": "LtzwCrthlTY",
+          "title": "Youth Baseball Essentials: Simple Throwing Progressions",
+          "channel": "Dominate The Diamond",
+          "url": "https://www.youtube.com/watch?v=LtzwCrthlTY",
+          "thumb": "https://img.youtube.com/vi/LtzwCrthlTY/hqdefault.jpg"
+        },
+        {
+          "id": "R0A_qFdt5jY",
+          "title": "How to Teach Young Kids to Throw [Step-by-Step]",
+          "channel": "Coach Dan Blewett",
+          "url": "https://www.youtube.com/watch?v=R0A_qFdt5jY",
+          "thumb": "https://img.youtube.com/vi/R0A_qFdt5jY/hqdefault.jpg"
         }
       ]
     },
@@ -108,6 +139,7 @@
       "emoji": "🦘",
       "category": "Throwing",
       "cue": "Scoot",
+      "color": "#7c4dff",
       "why": "After fielding, a small crow hop loads the body so the throw to first has zip without arm-only effort. Keep it a scoot — not a long jump.",
       "steps": [
         "Field the ball and bring it to the belly/chest.",
@@ -133,7 +165,7 @@
         "name": "Scoot to the Bucket",
         "time": "5 min",
         "setup": "Roller coach + pile of balls; laundry basket/bucket at \"first\" ~30–40 ft. Groups of 3–4 rotate in.",
-        "how": "Roll a grounder. Kid fields, scoots, throws to the bucket. Next kid is already in ready. 4–5 reps each then rotate — never more than one waiting."
+        "how": "Roll a grounder. Kid fields, scoots, throws to the bucket. Next kid is already in ready. 4–5 reps each then rotate."
       },
       "home_drill": {
         "name": "Tick-Tock to the Chair",
@@ -156,6 +188,13 @@
           "channel": "MegRem Softball",
           "url": "https://www.youtube.com/watch?v=PfmEL02N0ns",
           "thumb": "https://img.youtube.com/vi/PfmEL02N0ns/hqdefault.jpg"
+        },
+        {
+          "id": "1n7reOeGCvg",
+          "title": "Baseball Throwing Technique Drill #2 (7 & 8 Yr. Olds)",
+          "channel": "Sports Lessons 4 Kids",
+          "url": "https://www.youtube.com/watch?v=1n7reOeGCvg",
+          "thumb": "https://img.youtube.com/vi/1n7reOeGCvg/hqdefault.jpg"
         }
       ]
     },
@@ -165,6 +204,7 @@
       "emoji": "🧤",
       "category": "Catching",
       "cue": "Eyes on It",
+      "color": "#00acc1",
       "why": "Catching builds confidence. Start close and soft so kids succeed often; thumbs together for high balls, pinkies together for low balls, two hands always.",
       "steps": [
         "Eyes track the ball all the way into the glove.",
@@ -190,7 +230,7 @@
         "name": "Catch Ladder Partners",
         "time": "5 min",
         "setup": "Pairs with tennis balls across the infield grass.",
-        "how": "Start close. Every clean catch = one step back; a drop = one step forward. 90 seconds, then new partner. Coaches float and spot-fix glove shape — no single-file line."
+        "how": "Start close. Every clean catch = one step back; a drop = one step forward. 90 seconds, then new partner. Coaches float and spot-fix glove shape."
       },
       "home_drill": {
         "name": "Couch Ladder",
@@ -201,6 +241,13 @@
       "level_up": "Catch 5 in a row, then take three giant steps back and try again.",
       "videos": [
         {
+          "id": "6T5WWG1E8WM",
+          "title": "How To Teach 6-8 Year Olds To Catch A Baseball [Baseball Catching Drills]",
+          "channel": "Antonelli Baseball",
+          "url": "https://www.youtube.com/watch?v=6T5WWG1E8WM",
+          "thumb": "https://img.youtube.com/vi/6T5WWG1E8WM/hqdefault.jpg"
+        },
+        {
           "id": "2mRuWPJS64E",
           "title": "How to Teach Baseball Catching to 5-7 Year Olds",
           "channel": "DNA Sports",
@@ -208,11 +255,11 @@
           "thumb": "https://img.youtube.com/vi/2mRuWPJS64E/hqdefault.jpg"
         },
         {
-          "id": "6T5WWG1E8WM",
-          "title": "How To Teach 6-8 Year Olds To Catch A Baseball",
+          "id": "AeJ3RvgTgvM",
+          "title": "Youth Baseball Catching Drills [Learn To Catch Properly]",
           "channel": "Antonelli Baseball",
-          "url": "https://www.youtube.com/watch?v=6T5WWG1E8WM",
-          "thumb": "https://img.youtube.com/vi/6T5WWG1E8WM/hqdefault.jpg"
+          "url": "https://www.youtube.com/watch?v=AeJ3RvgTgvM",
+          "thumb": "https://img.youtube.com/vi/AeJ3RvgTgvM/hqdefault.jpg"
         }
       ]
     },
@@ -222,6 +269,7 @@
       "emoji": "🐊",
       "category": "Fielding",
       "cue": "Chomp",
+      "color": "#43a047",
       "why": "Most 8U balls are on the ground. Glove in the dirt out in front, top hand chomps like an alligator, then up to the belly — that sequence prevents \"through the gate\" misses.",
       "steps": [
         "Start in Popcorn ready; see the ball off the bat / roll.",
@@ -247,7 +295,7 @@
         "name": "Alligator Wave",
         "time": "5 min",
         "setup": "Two coaches rolling; kids in two short lines of 3–4 (or a semicircle if one coach).",
-        "how": "Roll straight, slow grounders. Kid chomps, flips back, goes to the end. Next kid is already ready. 8–10 reps each. No 10-kid single line — split groups."
+        "how": "Roll straight, slow grounders. Kid chomps, flips back, goes to the end. Next kid is already ready. 8–10 reps each. Split groups — no 10-kid single line."
       },
       "home_drill": {
         "name": "Fish in the Swamp",
@@ -263,6 +311,20 @@
           "channel": "Coach DiLena Baseball",
           "url": "https://www.youtube.com/watch?v=jzilP9aE10Y",
           "thumb": "https://img.youtube.com/vi/jzilP9aE10Y/hqdefault.jpg"
+        },
+        {
+          "id": "EGMSjpFMMkQ",
+          "title": "The Basics: Fielding A Ground Ball",
+          "channel": "Little League",
+          "url": "https://www.youtube.com/watch?v=EGMSjpFMMkQ",
+          "thumb": "https://img.youtube.com/vi/EGMSjpFMMkQ/hqdefault.jpg"
+        },
+        {
+          "id": "X9C52lE4M6Y",
+          "title": "10 Best Baseball Fielding Drills for Kids | Fun Youth Baseball Drills From the MOJO App",
+          "channel": "yougotmojo",
+          "url": "https://www.youtube.com/watch?v=X9C52lE4M6Y",
+          "thumb": "https://img.youtube.com/vi/X9C52lE4M6Y/hqdefault.jpg"
         }
       ]
     },
@@ -272,6 +334,7 @@
       "emoji": "☔",
       "category": "Catching",
       "cue": "Umbrella",
+      "color": "#5c6bc0",
       "why": "Pop-ups are scary at this age. Safety first: call it, get under it early, glove up like an umbrella. Start with balloons/soft balls before real baseballs.",
       "steps": [
         "Find the ball early; call \"Mine!\" loud (one person).",
@@ -313,6 +376,20 @@
           "channel": "Coach Dan Blewett",
           "url": "https://www.youtube.com/watch?v=_QC-pBhoZWg",
           "thumb": "https://img.youtube.com/vi/_QC-pBhoZWg/hqdefault.jpg"
+        },
+        {
+          "id": "e_8zNKXz_FQ",
+          "title": "How to Catch A Fly Ball With Confidence (and what NOT to do!)",
+          "channel": "Dominate The Diamond",
+          "url": "https://www.youtube.com/watch?v=e_8zNKXz_FQ",
+          "thumb": "https://img.youtube.com/vi/e_8zNKXz_FQ/hqdefault.jpg"
+        },
+        {
+          "id": "Oj2YyOHslls",
+          "title": "Pop Fly Numbers Drill ⚾ Ages 5-8",
+          "channel": "Legends Baseball Camps",
+          "url": "https://www.youtube.com/watch?v=Oj2YyOHslls",
+          "thumb": "https://img.youtube.com/vi/Oj2YyOHslls/hqdefault.jpg"
         }
       ]
     },
@@ -322,6 +399,7 @@
       "emoji": "🏏",
       "category": "Hitting",
       "cue": "Squish the Bug",
+      "color": "#e53935",
       "why": "Coach-pitch success starts with a balanced stance, a simple load, and eyes on the ball. Tee and soft toss build the swing before live arm speed.",
       "steps": [
         "Stance: feet wider than shoulders, athletic bend, eyes level.",
@@ -347,7 +425,7 @@
         "name": "Tee + Soft-Toss Carousel",
         "time": "8–10 min (station)",
         "setup": "2 tees + 1 soft-toss net/open space; groups of 3–4 per station.",
-        "how": "5 swings each, then rotate stations. Waiting kids shag or on-deck freeze swings (no live bats in the crowd). One coach per station; short lines only."
+        "how": "5 swings each, then rotate stations. Waiting kids shag or on-deck freeze swings (no live bats in the crowd). One coach per station."
       },
       "home_drill": {
         "name": "Driveway Tee / Soft Toss",
@@ -358,11 +436,18 @@
       "level_up": "Call a target (up the middle / opposite field) before the toss and try to hit that gate.",
       "videos": [
         {
-          "id": "dTDIriJq_6Y",
-          "title": "LITTLE LEAGUE tee ball newspaper toss",
-          "channel": "Schupak Sports",
-          "url": "https://www.youtube.com/watch?v=dTDIriJq_6Y",
-          "thumb": "https://img.youtube.com/vi/dTDIriJq_6Y/hqdefault.jpg"
+          "id": "SNSq-L729qI",
+          "title": "How to Teach Kids to Hit (3 Simple Cues) // Simplicity over Complexity",
+          "channel": "Building Better Baseball",
+          "url": "https://www.youtube.com/watch?v=SNSq-L729qI",
+          "thumb": "https://img.youtube.com/vi/SNSq-L729qI/hqdefault.jpg"
+        },
+        {
+          "id": "xa2iJR4UpcY",
+          "title": "Basic Tee Work | Baseball Drills",
+          "channel": "GoDog Sports",
+          "url": "https://www.youtube.com/watch?v=xa2iJR4UpcY",
+          "thumb": "https://img.youtube.com/vi/xa2iJR4UpcY/hqdefault.jpg"
         },
         {
           "id": "rV3EQ5tHcNE",
@@ -370,13 +455,6 @@
           "channel": "Dominate The Diamond",
           "url": "https://www.youtube.com/watch?v=rV3EQ5tHcNE",
           "thumb": "https://img.youtube.com/vi/rV3EQ5tHcNE/hqdefault.jpg"
-        },
-        {
-          "id": "Re0coPbz55M",
-          "title": "Ripken Baseball Hitting Tip - Basic Front Toss",
-          "channel": "Ripken Baseball",
-          "url": "https://www.youtube.com/watch?v=Re0coPbz55M",
-          "thumb": "https://img.youtube.com/vi/Re0coPbz55M/hqdefault.jpg"
         }
       ]
     },
@@ -386,6 +464,7 @@
       "emoji": "🏃",
       "category": "Running",
       "cue": "Through!",
+      "color": "#fb8c00",
       "why": "Outs at first often happen because kids slow down on the bag. Run through first, listen for the coach, and learn when to round vs. stop.",
       "steps": [
         "On a ground ball to the infield: sprint hard — don't watch the ball.",
@@ -411,7 +490,7 @@
         "name": "Break the Tape",
         "time": "4–5 min",
         "setup": "First base + a ribbon/tape held 2 steps past; or a coach with arms as the finish line.",
-        "how": "Kids line up at home in groups of 3. On clap, sprint through first and break the tape. Jog back wide. Next group goes — continuous flow, ~15 seconds between groups."
+        "how": "Kids line up at home in groups of 3. On clap, sprint through first and break the tape. Jog back wide. Next group goes — continuous flow."
       },
       "home_drill": {
         "name": "Mailbox First Base",
@@ -423,10 +502,24 @@
       "videos": [
         {
           "id": "b0xQ3p4L6sU",
-          "title": "Little League Tee Ball Baserunning Drill",
+          "title": "Little League Tee Ball Baserunning Drill. Helping tee ball players to run through first base.",
           "channel": "Schupak Sports",
           "url": "https://www.youtube.com/watch?v=b0xQ3p4L6sU",
           "thumb": "https://img.youtube.com/vi/b0xQ3p4L6sU/hqdefault.jpg"
+        },
+        {
+          "id": "BQW1NXp0BZ8",
+          "title": "Little League Tee Ball Drills: Excellent baseball and softball basic skills. #littleleague, #teeball",
+          "channel": "Schupak Sports",
+          "url": "https://www.youtube.com/watch?v=BQW1NXp0BZ8",
+          "thumb": "https://img.youtube.com/vi/BQW1NXp0BZ8/hqdefault.jpg"
+        },
+        {
+          "id": "EpIIF9tPdrs",
+          "title": "Coaching Baseball - Drills and Skills - Baserunning",
+          "channel": "YMCALouisville",
+          "url": "https://www.youtube.com/watch?v=EpIIF9tPdrs",
+          "thumb": "https://img.youtube.com/vi/EpIIF9tPdrs/hqdefault.jpg"
         }
       ]
     },
@@ -436,6 +529,7 @@
       "emoji": "⚾",
       "category": "Game IQ",
       "cue": "Next",
+      "color": "#00897b",
       "why": "8U kids need a tiny playbook: where to stand, where to throw, what a force out is, and how to stay safe. Clear > clever.",
       "steps": [
         "Know your starting spot (position cone) and face the batter in Popcorn ready.",
@@ -461,7 +555,7 @@
         "name": "Where Does It Go?",
         "time": "5 min",
         "setup": "Full infield spots with cones; coach with a ball (no bat needed).",
-        "how": "Call a scenario (\"Grounder to short — force at first!\"). Kids field a roll and throw to the right base. Reset fast. 6–8 scenarios. Keep energy high; correct with one cue word."
+        "how": "Call a scenario (\"Grounder to short — force at first!\"). Kids field a roll and throw to the right base. Reset fast. 6–8 scenarios."
       },
       "home_drill": {
         "name": "Kitchen Diamond",
@@ -473,12 +567,72 @@
       "videos": [
         {
           "id": "H8ccXY0SIIM",
-          "title": "Top 10 Tee Ball (& \"Coach Pitch\") Coaching Tips",
+          "title": "Top 10 Tee Ball (& \"Coach Pitch\") Coaching Tips - [You MUST USE THIS SEASON to have MASSIVE SUCCESS]",
           "channel": "YouGoProBaseball",
           "url": "https://www.youtube.com/watch?v=H8ccXY0SIIM",
           "thumb": "https://img.youtube.com/vi/H8ccXY0SIIM/hqdefault.jpg"
+        },
+        {
+          "id": "F4XD1EK_vX4",
+          "title": "Coaching Little League Coaches | YOUTH BASEBALL",
+          "channel": "ZONEDSportsAcademy",
+          "url": "https://www.youtube.com/watch?v=F4XD1EK_vX4",
+          "thumb": "https://img.youtube.com/vi/F4XD1EK_vX4/hqdefault.jpg"
+        },
+        {
+          "id": "B6iAY7jzw70",
+          "title": "Coaching Youth Baseball: Running an Active Practice",
+          "channel": "National Alliance for Youth Sports (NAYS)",
+          "url": "https://www.youtube.com/watch?v=B6iAY7jzw70",
+          "thumb": "https://img.youtube.com/vi/B6iAY7jzw70/hqdefault.jpg"
         }
       ]
+    }
+  ],
+  "coaches_videos": [
+    {
+      "id": "H8ccXY0SIIM",
+      "title": "Top 10 Tee Ball (& \"Coach Pitch\") Coaching Tips - [You MUST USE THIS SEASON to have MASSIVE SUCCESS]",
+      "channel": "YouGoProBaseball",
+      "url": "https://www.youtube.com/watch?v=H8ccXY0SIIM",
+      "thumb": "https://img.youtube.com/vi/H8ccXY0SIIM/hqdefault.jpg"
+    },
+    {
+      "id": "xft3YiANa0A",
+      "title": "How To Run A Little League Practice",
+      "channel": "Coach Ballgame",
+      "url": "https://www.youtube.com/watch?v=xft3YiANa0A",
+      "thumb": "https://img.youtube.com/vi/xft3YiANa0A/hqdefault.jpg"
+    },
+    {
+      "id": "k6JvOKxZAuM",
+      "title": "How to Create a Practice Plan in 10 Minutes // Planning Efficiency Tips for Youth Baseball Coaches",
+      "channel": "Building Better Baseball",
+      "url": "https://www.youtube.com/watch?v=k6JvOKxZAuM",
+      "thumb": "https://img.youtube.com/vi/k6JvOKxZAuM/hqdefault.jpg"
+    }
+  ],
+  "parents_videos": [
+    {
+      "id": "-mnGAQxC8RM",
+      "title": "2 Tips for Baseball Parents",
+      "channel": "Antonelli Baseball",
+      "url": "https://www.youtube.com/watch?v=-mnGAQxC8RM",
+      "thumb": "https://img.youtube.com/vi/-mnGAQxC8RM/hqdefault.jpg"
+    },
+    {
+      "id": "utOWkOoWJ3Q",
+      "title": "Tips on How to Be a Supportive Baseball Parent | Chapter 64",
+      "channel": "Kormans LLP",
+      "url": "https://www.youtube.com/watch?v=utOWkOoWJ3Q",
+      "thumb": "https://img.youtube.com/vi/utOWkOoWJ3Q/hqdefault.jpg"
+    },
+    {
+      "id": "H8ccXY0SIIM",
+      "title": "Top 10 Tee Ball (& \"Coach Pitch\") Coaching Tips - [You MUST USE THIS SEASON to have MASSIVE SUCCESS]",
+      "channel": "YouGoProBaseball",
+      "url": "https://www.youtube.com/watch?v=H8ccXY0SIIM",
+      "thumb": "https://img.youtube.com/vi/H8ccXY0SIIM/hqdefault.jpg"
     }
   ]
 }

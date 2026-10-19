@@ -9,17 +9,22 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&family=Nunito:wght@600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="assets/css/app.css">
-  
 </head>
 <body>
 <nav class="topnav" aria-label="Main">
   <div class="topnav-inner">
-    <a class="brand" href="index.html"><span class="brand-mark">⚾</span> <span>THE GOONIES</span></a>
+    <a class="brand" href="index.html"><span>⚾</span> <span>THE GOONIES</span></a>
     <div class="nav-links">
       <a href="index.html">Skills</a>
+      <a href="videos.html">Videos</a>
       <a href="coaches.html">Coaches</a>
       <a href="parents.html">Parents</a>
       <a href="cheat-sheet.html">Cue sheet</a>
+    </div>
+    <div class="star-bank" title="Stars earned on this device">
+      <span class="ico">⭐</span>
+      <span data-star-count>0</span>
+      <span class="hint">on this phone</span>
     </div>
   </div>
 </nav>
@@ -28,84 +33,104 @@
   <div class="hero-badge">🧢 Volunteer coaches</div>
   <h1 class="hero-team">Practice Hub</h1>
   <p class="hero-tagline">Goonies never say die!</p>
-  <p class="hero-lead">Short stations, one cue word, and lots of touches. Built for phones on the field.</p>
+  <p class="hero-lead">Short stations, one cue word, and lots of touches — built for phones on the field.</p>
 </header>
 <main class="wrap">
   <a class="back-link" href="index.html">← Skills home</a>
 
   <section class="card">
+    <h2 class="watch-title">🎬 Watch it</h2>
+    <p class="muted" style="margin:0 0 .75rem">Practice setup &amp; coach-pitch tips.</p>
+    <div class="videos triple"><a class="video-card" href="https://www.youtube.com/watch?v=H8ccXY0SIIM" target="_blank" rel="noopener">
+  <div class="video-thumb-wrap">
+    <img src="https://img.youtube.com/vi/H8ccXY0SIIM/hqdefault.jpg" alt="" loading="lazy" width="480" height="270">
+    <div class="play-btn" aria-hidden="true"></div>
+  </div>
+  <div class="video-info">
+    <strong>Top 10 Tee Ball (&amp; &quot;Coach Pitch&quot;) Coaching Tips - [You MUST USE THIS SEASON to have MASSIVE SUCCESS]</strong>
+    <span class="ch">YouGoProBaseball</span>
+  </div>
+</a>
+<a class="video-card" href="https://www.youtube.com/watch?v=xft3YiANa0A" target="_blank" rel="noopener">
+  <div class="video-thumb-wrap">
+    <img src="https://img.youtube.com/vi/xft3YiANa0A/hqdefault.jpg" alt="" loading="lazy" width="480" height="270">
+    <div class="play-btn" aria-hidden="true"></div>
+  </div>
+  <div class="video-info">
+    <strong>How To Run A Little League Practice</strong>
+    <span class="ch">Coach Ballgame</span>
+  </div>
+</a>
+<a class="video-card" href="https://www.youtube.com/watch?v=k6JvOKxZAuM" target="_blank" rel="noopener">
+  <div class="video-thumb-wrap">
+    <img src="https://img.youtube.com/vi/k6JvOKxZAuM/hqdefault.jpg" alt="" loading="lazy" width="480" height="270">
+    <div class="play-btn" aria-hidden="true"></div>
+  </div>
+  <div class="video-info">
+    <strong>How to Create a Practice Plan in 10 Minutes // Planning Efficiency Tips for Youth Baseball Coaches</strong>
+    <span class="ch">Building Better Baseball</span>
+  </div>
+</a></div>
+  </section>
+
+  <section class="card">
     <h2>Sample 60-minute practice</h2>
-    <p class="muted">12 kids · 3–4 coaches · keep groups of 3–4 so nobody waits</p>
+    <p class="muted">12 kids · 3–4 coaches · groups of 3–4 so nobody waits</p>
     <table class="plan-table">
       <thead><tr><th>Time</th><th>Block</th><th>Notes</th></tr></thead>
       <tbody>
-        <tr><td>0–5</td><td>Arrive + dynamic warm-up</td><td>Jog, skips, Popcorn freezes. Helmets stay in dugout until hitting.</td></tr>
-        <tr><td>5–8</td><td>Team huddle</td><td>One theme cue for the day (e.g. Chomp). Freeze signal review.</td></tr>
-        <tr><td>8–20</td><td>Station A — Throwing / Crow hop</td><td>Partner lines + Scoot-to-bucket. Rotate at 6 min.</td></tr>
-        <tr><td>20–32</td><td>Station B — Grounders / Catching</td><td>Alligator Wave + Catch Ladder. Split into two groups.</td></tr>
-        <tr><td>32–44</td><td>Station C — Hitting carousel</td><td>Tee + soft toss. On-deck kids do dry Squish freezes — no free swinging.</td></tr>
-        <tr><td>44–54</td><td>Game-like</td><td>Where Does It Go? or Break the Tape base running. Live coach pitch if arms are ready.</td></tr>
-        <tr><td>54–60</td><td>Cool-down + shout-outs</td><td>Water, one praise per kid if possible, reminder of home cue.</td></tr>
+        <tr><td>0–5</td><td>Arrive + warm-up</td><td>Jog, skips, Popcorn freezes. Helmets stay dugout-side until hitting.</td></tr>
+        <tr><td>5–8</td><td>Team huddle</td><td>One theme cue for the day. Freeze signal review.</td></tr>
+        <tr><td>8–20</td><td>Station A — Throw / Crow hop</td><td>Partner lines + Scoot-to-bucket.</td></tr>
+        <tr><td>20–32</td><td>Station B — Grounders / Catch</td><td>Alligator Wave + Catch Ladder. Split groups.</td></tr>
+        <tr><td>32–44</td><td>Station C — Hitting carousel</td><td>Tee + soft toss. On-deck = dry Squish freezes only.</td></tr>
+        <tr><td>44–54</td><td>Game-like</td><td>Where Does It Go? or Break the Tape.</td></tr>
+        <tr><td>54–60</td><td>Cool-down</td><td>Water + specific shout-outs.</td></tr>
       </tbody>
     </table>
   </section>
 
   <section class="card">
     <h2>Freeze signal</h2>
-    <p style="font-weight:600;margin:0">Pick one signal for the whole season (both hands up, or a long whistle). When it happens: feet stop, eyes on coach, mouths quiet. Practice it once every practice like a drill — not only when kids are wild.</p>
+    <p style="font-weight:600;margin:0">Pick one signal for the season (both hands up, or a long whistle). Feet stop, eyes on coach, mouths quiet. Practice it once every practice like a drill.</p>
   </section>
 
   <section class="card">
-    <h2>Praise language that works</h2>
+    <h2>Praise that works</h2>
     <ul class="checklist">
-      <li>Praise the <strong>cue</strong>: “That was a great Chomp — glove ate grass!”</li>
-      <li>Praise <strong>effort and hustle</strong> louder than the highlight-reel play.</li>
-      <li>Be specific and short. Skip vague “good job” when you can name the action.</li>
-      <li>Public praise, private fix. Correct with the cue word while they move — not a lecture after.</li>
+      <li>Praise the <strong>cue</strong>: “Great Chomp — glove ate grass!”</li>
+      <li>Praise <strong>effort</strong> louder than highlight-reel plays.</li>
+      <li>Be specific and short. Public praise, private fix.</li>
+      <li>Correct with the cue word while they move — not a lecture after.</li>
     </ul>
   </section>
 
   <section class="card">
-    <h2>Mixed skill levels & short attention</h2>
+    <h2>Mixed levels &amp; short attention</h2>
     <ul class="checklist">
-      <li><strong>Stations beat lines.</strong> If more than 3 kids are waiting, split the group.</li>
-      <li><strong>Same drill, different distance.</strong> Newer players closer; advanced kids step back or add Scoot.</li>
-      <li><strong>One cue per activity.</strong> If you hear yourself saying a sentence, stop and say the word.</li>
-      <li><strong>90-second rule.</strong> Change the constraint (target, race, points) before boredom hits.</li>
-      <li><strong>Helpers.</strong> Confident players can be “ball shaggers” or demo shadows — not permanent coaches.</li>
+      <li><strong>Stations beat lines.</strong> More than 3 waiting? Split.</li>
+      <li><strong>Same drill, different distance.</strong> Newer closer; advanced step back or add Scoot.</li>
+      <li><strong>One cue per activity.</strong></li>
+      <li><strong>90-second rule.</strong> Change the constraint before boredom hits.</li>
     </ul>
   </section>
 
   <section class="card">
     <h2>Safety checklist</h2>
     <ul class="checklist">
-      <li>Helmets on in the batter’s box and on the bases.</li>
-      <li>Bats only in the on-deck / hitting circle — never in the dugout aisle.</li>
-      <li>Soft toss / front toss: foam or wiffle only; adult off the line of the swing.</li>
-      <li>No kids behind the throw target or under fly-ball paths during drills.</li>
-      <li>Water breaks every station; shade when heat is high.</li>
-      <li>Know who has the med kit and parent contacts before practice starts.</li>
+      <li>Helmets on in the box and on the bases.</li>
+      <li>Bats only in the on-deck / hitting circle.</li>
+      <li>Soft toss / front toss: foam or wiffle; adult off the swing line.</li>
+      <li>No kids behind throw targets or under fly-ball paths.</li>
+      <li>Water every station; know the med kit + contacts.</li>
     </ul>
-  </section>
-
-  <section class="card">
-    <h2>Watch — coaching mindset</h2>
-    <div class="videos">
-      <a class="video-card" href="https://www.youtube.com/watch?v=H8ccXY0SIIM" target="_blank" rel="noopener">
-        <img class="video-thumb" src="https://img.youtube.com/vi/H8ccXY0SIIM/hqdefault.jpg" alt="" loading="lazy" width="320" height="180">
-        <div class="video-info">
-          <strong>Top 10 Tee Ball (&amp; "Coach Pitch") Coaching Tips</strong>
-          <span class="ch">YouGoProBaseball</span>
-          <span class="yt">▶ YouTube</span>
-        </div>
-      </a>
-    </div>
   </section>
 </main>
 
 <footer class="footer">
   <p>THE GOONIES · Cedar Park Youth League · 8U Coach Pitch</p>
-  <p>Goonies never say die! · <a href="https://github.com/GrrHero/goonies-baseball">GitHub</a></p>
+  <p>Goonies never say die! · Stars save on this phone · <a href="https://github.com/GrrHero/goonies-baseball">GitHub</a></p>
+  <p><button type="button" class="btn danger" data-reset-stars style="margin-top:.5rem">Reset stars</button></p>
 </footer>
 <script src="assets/js/app.js" defer></script>
 </body>

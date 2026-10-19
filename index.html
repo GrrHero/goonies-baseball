@@ -9,17 +9,22 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&family=Nunito:wght@600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="assets/css/app.css">
-  
 </head>
 <body>
 <nav class="topnav" aria-label="Main">
   <div class="topnav-inner">
-    <a class="brand" href="index.html"><span class="brand-mark">⚾</span> <span>THE GOONIES</span></a>
+    <a class="brand" href="index.html"><span>⚾</span> <span>THE GOONIES</span></a>
     <div class="nav-links">
       <a href="index.html">Skills</a>
+      <a href="videos.html">Videos</a>
       <a href="coaches.html">Coaches</a>
       <a href="parents.html">Parents</a>
       <a href="cheat-sheet.html">Cue sheet</a>
+    </div>
+    <div class="star-bank" title="Stars earned on this device">
+      <span class="ico">⭐</span>
+      <span data-star-count>0</span>
+      <span class="hint">on this phone</span>
     </div>
   </div>
 </nav>
@@ -29,77 +34,126 @@
   <h1 class="hero-team">THE GOONIES</h1>
   <p class="hero-tagline">Goonies never say die!</p>
   <p class="hero-sub">Cedar Park Youth League</p>
-  <p class="hero-lead">Foundational baseball skills for <strong>volunteer coaches</strong> at practice and <strong>parents</strong> at home. No fancy jargon — just cues, drills, and fixes that work with 8U kids.</p>
+  <p class="hero-lead">Foundational baseball for <strong>volunteer coaches</strong> at practice and <strong>parents</strong> at home — cues, drills, fixes, and videos.</p>
 </header>
 <main class="wrap">
   <div class="audience">
-    <a class="pill" href="coaches.html">🧢 Coaches — practice plans</a>
-    <a class="pill" href="parents.html">🏠 Parents — 10 minutes a day</a>
-    <a class="pill" href="cheat-sheet.html">📋 Cue-word cheat sheet</a>
+    <a class="pill" href="coaches.html">🧢 Coaches</a>
+    <a class="pill" href="parents.html">🏠 Parents</a>
+    <a class="pill" href="videos.html">🎬 All videos</a>
+    <a class="pill" href="cheat-sheet.html">📋 Cue sheet</a>
   </div>
+  <p class="save-note">⭐ Stars save on this phone — tap “I practiced it!” on any skill.</p>
   <h2 class="section-title">Skills</h2>
-  <p class="section-note">Tap a card for why it matters, the cue, how-to, mistakes, a team drill, a home drill, and videos.</p>
+  <p class="section-note">Tap a card for videos, how-to, mistakes, team &amp; home drills.</p>
   <div class="skill-grid">
-<a class="skill-card" href="skills/ready-position.html">
-  <div class="emoji">🍿</div>
-  <h3>Ready Position</h3>
-  <p class="meta">Fielding</p>
+<a class="skill-card" href="skills/ready-position.html" style="--accent:#ff6b35">
+  <div class="progress-ring" data-skill-progress="ready-position" data-accent="#ff6b35"></div>
+  <div class="skill-card-top">
+    <div class="skill-emoji">🍿</div>
+    <div>
+      <h3>Ready Position</h3>
+      <p class="meta">Fielding</p>
+    </div>
+  </div>
   <span class="cue-chip">Popcorn</span>
-</a>
-<a class="skill-card" href="skills/throwing.html">
-  <div class="emoji">🎯</div>
-  <h3>Throwing</h3>
-  <p class="meta">Throwing</p>
+  <div class="thumb-strip"><img src="https://img.youtube.com/vi/OlI5Vs8kIrU/hqdefault.jpg" alt=""><img src="https://img.youtube.com/vi/EZtJ9JNPE2k/hqdefault.jpg" alt=""><img src="https://img.youtube.com/vi/L4lO3t1YHxs/hqdefault.jpg" alt=""></div>
+</a><a class="skill-card" href="skills/throwing.html" style="--accent:#1e88e5">
+  <div class="progress-ring" data-skill-progress="throwing" data-accent="#1e88e5"></div>
+  <div class="skill-card-top">
+    <div class="skill-emoji">🎯</div>
+    <div>
+      <h3>Throwing</h3>
+      <p class="meta">Throwing</p>
+    </div>
+  </div>
   <span class="cue-chip">Point, Step, Throw</span>
-</a>
-<a class="skill-card" href="skills/crow-hop.html">
-  <div class="emoji">🦘</div>
-  <h3>Crow Hop</h3>
-  <p class="meta">Throwing</p>
+  <div class="thumb-strip"><img src="https://img.youtube.com/vi/o3Qz0LtQZ_I/hqdefault.jpg" alt=""><img src="https://img.youtube.com/vi/LtzwCrthlTY/hqdefault.jpg" alt=""><img src="https://img.youtube.com/vi/R0A_qFdt5jY/hqdefault.jpg" alt=""></div>
+</a><a class="skill-card" href="skills/crow-hop.html" style="--accent:#7c4dff">
+  <div class="progress-ring" data-skill-progress="crow-hop" data-accent="#7c4dff"></div>
+  <div class="skill-card-top">
+    <div class="skill-emoji">🦘</div>
+    <div>
+      <h3>Crow Hop</h3>
+      <p class="meta">Throwing</p>
+    </div>
+  </div>
   <span class="cue-chip">Scoot</span>
-</a>
-<a class="skill-card" href="skills/catching.html">
-  <div class="emoji">🧤</div>
-  <h3>Catching</h3>
-  <p class="meta">Catching</p>
+  <div class="thumb-strip"><img src="https://img.youtube.com/vi/98nYdcKaSsM/hqdefault.jpg" alt=""><img src="https://img.youtube.com/vi/PfmEL02N0ns/hqdefault.jpg" alt=""><img src="https://img.youtube.com/vi/1n7reOeGCvg/hqdefault.jpg" alt=""></div>
+</a><a class="skill-card" href="skills/catching.html" style="--accent:#00acc1">
+  <div class="progress-ring" data-skill-progress="catching" data-accent="#00acc1"></div>
+  <div class="skill-card-top">
+    <div class="skill-emoji">🧤</div>
+    <div>
+      <h3>Catching</h3>
+      <p class="meta">Catching</p>
+    </div>
+  </div>
   <span class="cue-chip">Eyes on It</span>
-</a>
-<a class="skill-card" href="skills/grounders.html">
-  <div class="emoji">🐊</div>
-  <h3>Fielding Grounders</h3>
-  <p class="meta">Fielding</p>
+  <div class="thumb-strip"><img src="https://img.youtube.com/vi/6T5WWG1E8WM/hqdefault.jpg" alt=""><img src="https://img.youtube.com/vi/2mRuWPJS64E/hqdefault.jpg" alt=""><img src="https://img.youtube.com/vi/AeJ3RvgTgvM/hqdefault.jpg" alt=""></div>
+</a><a class="skill-card" href="skills/grounders.html" style="--accent:#43a047">
+  <div class="progress-ring" data-skill-progress="grounders" data-accent="#43a047"></div>
+  <div class="skill-card-top">
+    <div class="skill-emoji">🐊</div>
+    <div>
+      <h3>Fielding Grounders</h3>
+      <p class="meta">Fielding</p>
+    </div>
+  </div>
   <span class="cue-chip">Chomp</span>
-</a>
-<a class="skill-card" href="skills/fly-balls.html">
-  <div class="emoji">☔</div>
-  <h3>Fly Balls & Pop-Ups</h3>
-  <p class="meta">Catching</p>
+  <div class="thumb-strip"><img src="https://img.youtube.com/vi/jzilP9aE10Y/hqdefault.jpg" alt=""><img src="https://img.youtube.com/vi/EGMSjpFMMkQ/hqdefault.jpg" alt=""><img src="https://img.youtube.com/vi/X9C52lE4M6Y/hqdefault.jpg" alt=""></div>
+</a><a class="skill-card" href="skills/fly-balls.html" style="--accent:#5c6bc0">
+  <div class="progress-ring" data-skill-progress="fly-balls" data-accent="#5c6bc0"></div>
+  <div class="skill-card-top">
+    <div class="skill-emoji">☔</div>
+    <div>
+      <h3>Fly Balls &amp; Pop-Ups</h3>
+      <p class="meta">Catching</p>
+    </div>
+  </div>
   <span class="cue-chip">Umbrella</span>
-</a>
-<a class="skill-card" href="skills/hitting.html">
-  <div class="emoji">🏏</div>
-  <h3>Hitting</h3>
-  <p class="meta">Hitting</p>
+  <div class="thumb-strip"><img src="https://img.youtube.com/vi/_QC-pBhoZWg/hqdefault.jpg" alt=""><img src="https://img.youtube.com/vi/e_8zNKXz_FQ/hqdefault.jpg" alt=""><img src="https://img.youtube.com/vi/Oj2YyOHslls/hqdefault.jpg" alt=""></div>
+</a><a class="skill-card" href="skills/hitting.html" style="--accent:#e53935">
+  <div class="progress-ring" data-skill-progress="hitting" data-accent="#e53935"></div>
+  <div class="skill-card-top">
+    <div class="skill-emoji">🏏</div>
+    <div>
+      <h3>Hitting</h3>
+      <p class="meta">Hitting</p>
+    </div>
+  </div>
   <span class="cue-chip">Squish the Bug</span>
-</a>
-<a class="skill-card" href="skills/base-running.html">
-  <div class="emoji">🏃</div>
-  <h3>Base Running</h3>
-  <p class="meta">Running</p>
+  <div class="thumb-strip"><img src="https://img.youtube.com/vi/SNSq-L729qI/hqdefault.jpg" alt=""><img src="https://img.youtube.com/vi/xa2iJR4UpcY/hqdefault.jpg" alt=""><img src="https://img.youtube.com/vi/rV3EQ5tHcNE/hqdefault.jpg" alt=""></div>
+</a><a class="skill-card" href="skills/base-running.html" style="--accent:#fb8c00">
+  <div class="progress-ring" data-skill-progress="base-running" data-accent="#fb8c00"></div>
+  <div class="skill-card-top">
+    <div class="skill-emoji">🏃</div>
+    <div>
+      <h3>Base Running</h3>
+      <p class="meta">Running</p>
+    </div>
+  </div>
   <span class="cue-chip">Through!</span>
-</a>
-<a class="skill-card" href="skills/game-basics.html">
-  <div class="emoji">⚾</div>
-  <h3>Game Basics</h3>
-  <p class="meta">Game IQ</p>
+  <div class="thumb-strip"><img src="https://img.youtube.com/vi/b0xQ3p4L6sU/hqdefault.jpg" alt=""><img src="https://img.youtube.com/vi/BQW1NXp0BZ8/hqdefault.jpg" alt=""><img src="https://img.youtube.com/vi/EpIIF9tPdrs/hqdefault.jpg" alt=""></div>
+</a><a class="skill-card" href="skills/game-basics.html" style="--accent:#00897b">
+  <div class="progress-ring" data-skill-progress="game-basics" data-accent="#00897b"></div>
+  <div class="skill-card-top">
+    <div class="skill-emoji">⚾</div>
+    <div>
+      <h3>Game Basics</h3>
+      <p class="meta">Game IQ</p>
+    </div>
+  </div>
   <span class="cue-chip">Next</span>
+  <div class="thumb-strip"><img src="https://img.youtube.com/vi/H8ccXY0SIIM/hqdefault.jpg" alt=""><img src="https://img.youtube.com/vi/F4XD1EK_vX4/hqdefault.jpg" alt=""><img src="https://img.youtube.com/vi/B6iAY7jzw70/hqdefault.jpg" alt=""></div>
 </a>
   </div>
 </main>
 
 <footer class="footer">
   <p>THE GOONIES · Cedar Park Youth League · 8U Coach Pitch</p>
-  <p>Goonies never say die! · <a href="https://github.com/GrrHero/goonies-baseball">GitHub</a></p>
+  <p>Goonies never say die! · Stars save on this phone · <a href="https://github.com/GrrHero/goonies-baseball">GitHub</a></p>
+  <p><button type="button" class="btn danger" data-reset-stars style="margin-top:.5rem">Reset stars</button></p>
 </footer>
 <script src="assets/js/app.js" defer></script>
 </body>

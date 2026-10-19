@@ -9,95 +9,128 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&family=Nunito:wght@600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="../assets/css/app.css">
-  
 </head>
 <body>
 <nav class="topnav" aria-label="Main">
   <div class="topnav-inner">
-    <a class="brand" href="../index.html"><span class="brand-mark">⚾</span> <span>THE GOONIES</span></a>
+    <a class="brand" href="../index.html"><span>⚾</span> <span>THE GOONIES</span></a>
     <div class="nav-links">
       <a href="../index.html">Skills</a>
+      <a href="../videos.html">Videos</a>
       <a href="../coaches.html">Coaches</a>
       <a href="../parents.html">Parents</a>
       <a href="../cheat-sheet.html">Cue sheet</a>
     </div>
+    <div class="star-bank" title="Stars earned on this device">
+      <span class="ico">⭐</span>
+      <span data-star-count>0</span>
+      <span class="hint">on this phone</span>
+    </div>
   </div>
 </nav>
 
-<main class="wrap" id="skill-root">
+<main class="wrap" style="--accent:#e53935">
   <a class="back-link" href="../index.html">← All skills</a>
-  <header class="card" style="display:flex;gap:0.85rem;align-items:flex-start">
-    <div style="font-size:2.4rem;line-height:1">🏏</div>
+  <header class="card skill-hero">
+    <div class="big-emoji">🏏</div>
     <div>
       <p class="muted" style="margin:0">Hitting</p>
-      <h1 style="margin:0.15rem 0;font-size:1.75rem">Hitting</h1>
+      <h1 style="margin:.15rem 0;font-size:1.8rem">Hitting</h1>
+      <div class="practice-row">
+        <button type="button" class="did-it" data-practice="skill:hitting" data-kind="skill">✨ I practiced it!</button>
+        <button type="button" class="did-it home-btn" data-practice="home:hitting" data-kind="home">🏠 I did the home drill!</button>
+      </div>
     </div>
   </header>
+
   <div class="cue-banner">
     <span class="big">Squish the Bug</span>
     <span><strong>Cue word</strong> — say only this while they move.</span>
   </div>
+
+  <section class="card">
+    <h2 class="watch-title">🎬 Watch it</h2>
+    <p class="muted" style="margin:0 0 .75rem">Short youth-friendly references — open on YouTube.</p>
+    <div class="videos triple"><a class="video-card" href="https://www.youtube.com/watch?v=SNSq-L729qI" target="_blank" rel="noopener">
+  <div class="video-thumb-wrap">
+    <img src="https://img.youtube.com/vi/SNSq-L729qI/hqdefault.jpg" alt="" loading="lazy" width="480" height="270">
+    <div class="play-btn" aria-hidden="true"></div>
+  </div>
+  <div class="video-info">
+    <strong>How to Teach Kids to Hit (3 Simple Cues) // Simplicity over Complexity</strong>
+    <span class="ch">Building Better Baseball</span>
+  </div>
+</a>
+<a class="video-card" href="https://www.youtube.com/watch?v=xa2iJR4UpcY" target="_blank" rel="noopener">
+  <div class="video-thumb-wrap">
+    <img src="https://img.youtube.com/vi/xa2iJR4UpcY/hqdefault.jpg" alt="" loading="lazy" width="480" height="270">
+    <div class="play-btn" aria-hidden="true"></div>
+  </div>
+  <div class="video-info">
+    <strong>Basic Tee Work | Baseball Drills</strong>
+    <span class="ch">GoDog Sports</span>
+  </div>
+</a>
+<a class="video-card" href="https://www.youtube.com/watch?v=rV3EQ5tHcNE" target="_blank" rel="noopener">
+  <div class="video-thumb-wrap">
+    <img src="https://img.youtube.com/vi/rV3EQ5tHcNE/hqdefault.jpg" alt="" loading="lazy" width="480" height="270">
+    <div class="play-btn" aria-hidden="true"></div>
+  </div>
+  <div class="video-info">
+    <strong>How to Soft Toss | YOUTH BASEBALL AND SOFTBALL</strong>
+    <span class="ch">Dominate The Diamond</span>
+  </div>
+</a></div>
+  </section>
+
   <section class="card">
     <h2>Why it matters</h2>
     <p style="margin:0;font-weight:600">Coach-pitch success starts with a balanced stance, a simple load, and eyes on the ball. Tee and soft toss build the swing before live arm speed.</p>
   </section>
+
   <section class="card">
     <h2>How to</h2>
-    <ol class="steps"><li>Stance: feet wider than shoulders, athletic bend, eyes level.</li><li>Load / rock: hands and weight shift slightly back (quiet, not a huge step).</li><li>Stride soft toward the pitcher; swing level through the ball.</li><li>Back foot rotates — "squish the bug" — and finish balanced with belly button toward the field.</li></ol>
+    <ol class="steps"><li>Stance: feet wider than shoulders, athletic bend, eyes level.</li><li>Load / rock: hands and weight shift slightly back (quiet, not a huge step).</li><li>Stride soft toward the pitcher; swing level through the ball.</li><li>Back foot rotates — &quot;squish the bug&quot; — and finish balanced with belly button toward the field.</li></ol>
   </section>
+
   <section class="card">
     <h2>Common mistakes</h2>
-    <div class="mistake"><div class="bad">Stepping in the bucket (away from the plate) or falling over</div><div class="fix">Tee work with a line under the feet. "Squish and freeze" for 2 seconds after contact.</div></div><div class="mistake"><div class="bad">Uppercutting / eyes pulling off early</div><div class="fix">Tee at mid-thigh; cue "Eyes on the ball" through contact. Soft toss from the side.</div></div><div class="mistake"><div class="bad">Giant load that ruins timing</div><div class="fix">Shrink the load to a tiny rock. Rhythm: "Rock… step… squish."</div></div>
+    <div class="mistake"><div class="bad">Stepping in the bucket (away from the plate) or falling over</div><div class="fix">Tee work with a line under the feet. &quot;Squish and freeze&quot; for 2 seconds after contact.</div></div><div class="mistake"><div class="bad">Uppercutting / eyes pulling off early</div><div class="fix">Tee at mid-thigh; cue &quot;Eyes on the ball&quot; through contact. Soft toss from the side.</div></div><div class="mistake"><div class="bad">Giant load that ruins timing</div><div class="fix">Shrink the load to a tiny rock. Rhythm: &quot;Rock… step… squish.&quot;</div></div>
   </section>
+
   <section class="card">
     <h2>Coach station drill</h2>
     <div class="drill-box">
       <span class="lbl">Practice · 8–10 min (station)</span>
       <strong>Tee + Soft-Toss Carousel</strong>
-      <p style="margin:0.4rem 0 0"><strong>Setup:</strong> 2 tees + 1 soft-toss net/open space; groups of 3–4 per station.</p>
-      <p style="margin:0.4rem 0 0"><strong>How:</strong> 5 swings each, then rotate stations. Waiting kids shag or on-deck freeze swings (no live bats in the crowd). One coach per station; short lines only.</p>
+      <p style="margin:.4rem 0 0"><strong>Setup:</strong> 2 tees + 1 soft-toss net/open space; groups of 3–4 per station.</p>
+      <p style="margin:.4rem 0 0"><strong>How:</strong> 5 swings each, then rotate stations. Waiting kids shag or on-deck freeze swings (no live bats in the crowd). One coach per station.</p>
     </div>
   </section>
+
   <section class="card">
     <h2>10-minute at-home drill</h2>
     <div class="drill-box home">
       <span class="lbl">Home · 10 min</span>
       <strong>Driveway Tee / Soft Toss</strong>
-      <p style="margin:0.4rem 0 0"><strong>Gear:</strong> Tee or stacked bucket, wiffle/foam balls, bat, open space away from windows</p>
-      <p style="margin:0.4rem 0 0"><strong>How:</strong> 10 tee swings with Squish the Bug. Then 8 soft tosses from a parent kneeling slightly off to the side (foam only). Freeze the finish each time.</p>
+      <p style="margin:.4rem 0 0"><strong>Gear:</strong> Tee or stacked bucket, wiffle/foam balls, bat, open space away from windows</p>
+      <p style="margin:.4rem 0 0"><strong>How:</strong> 10 tee swings with Squish the Bug. Then 8 soft tosses from a parent kneeling slightly off to the side (foam only). Freeze the finish each time.</p>
+    </div>
+    <div class="practice-row">
+      <button type="button" class="did-it home-btn" data-practice="home:hitting" data-kind="home">🏠 I did the home drill!</button>
     </div>
   </section>
+
   <section class="card">
     <h2>Level up</h2>
     <div class="level-box">🚀 Call a target (up the middle / opposite field) before the toss and try to hit that gate.</div>
   </section>
-  <section class="card"><h2>Watch</h2><div class="videos"><a class="video-card" href="https://www.youtube.com/watch?v=dTDIriJq_6Y" target="_blank" rel="noopener">
-        <img class="video-thumb" src="https://img.youtube.com/vi/dTDIriJq_6Y/hqdefault.jpg" alt="" loading="lazy" width="320" height="180">
-        <div class="video-info">
-          <strong>LITTLE LEAGUE tee ball newspaper toss</strong>
-          <span class="ch">Schupak Sports</span>
-          <span class="yt">▶ YouTube</span>
-        </div>
-      </a><a class="video-card" href="https://www.youtube.com/watch?v=rV3EQ5tHcNE" target="_blank" rel="noopener">
-        <img class="video-thumb" src="https://img.youtube.com/vi/rV3EQ5tHcNE/hqdefault.jpg" alt="" loading="lazy" width="320" height="180">
-        <div class="video-info">
-          <strong>How to Soft Toss | YOUTH BASEBALL AND SOFTBALL</strong>
-          <span class="ch">Dominate The Diamond</span>
-          <span class="yt">▶ YouTube</span>
-        </div>
-      </a><a class="video-card" href="https://www.youtube.com/watch?v=Re0coPbz55M" target="_blank" rel="noopener">
-        <img class="video-thumb" src="https://img.youtube.com/vi/Re0coPbz55M/hqdefault.jpg" alt="" loading="lazy" width="320" height="180">
-        <div class="video-info">
-          <strong>Ripken Baseball Hitting Tip - Basic Front Toss</strong>
-          <span class="ch">Ripken Baseball</span>
-          <span class="yt">▶ YouTube</span>
-        </div>
-      </a></div></section>
 </main>
 
 <footer class="footer">
   <p>THE GOONIES · Cedar Park Youth League · 8U Coach Pitch</p>
-  <p>Goonies never say die! · <a href="https://github.com/GrrHero/goonies-baseball">GitHub</a></p>
+  <p>Goonies never say die! · Stars save on this phone · <a href="https://github.com/GrrHero/goonies-baseball">GitHub</a></p>
+  <p><button type="button" class="btn danger" data-reset-stars style="margin-top:.5rem">Reset stars</button></p>
 </footer>
 <script src="../assets/js/app.js" defer></script>
 </body>

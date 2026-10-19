@@ -9,74 +9,128 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&family=Nunito:wght@600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="../assets/css/app.css">
-  
 </head>
 <body>
 <nav class="topnav" aria-label="Main">
   <div class="topnav-inner">
-    <a class="brand" href="../index.html"><span class="brand-mark">⚾</span> <span>THE GOONIES</span></a>
+    <a class="brand" href="../index.html"><span>⚾</span> <span>THE GOONIES</span></a>
     <div class="nav-links">
       <a href="../index.html">Skills</a>
+      <a href="../videos.html">Videos</a>
       <a href="../coaches.html">Coaches</a>
       <a href="../parents.html">Parents</a>
       <a href="../cheat-sheet.html">Cue sheet</a>
     </div>
+    <div class="star-bank" title="Stars earned on this device">
+      <span class="ico">⭐</span>
+      <span data-star-count>0</span>
+      <span class="hint">on this phone</span>
+    </div>
   </div>
 </nav>
 
-<main class="wrap" id="skill-root">
+<main class="wrap" style="--accent:#ff6b35">
   <a class="back-link" href="../index.html">← All skills</a>
-  <header class="card" style="display:flex;gap:0.85rem;align-items:flex-start">
-    <div style="font-size:2.4rem;line-height:1">🍿</div>
+  <header class="card skill-hero">
+    <div class="big-emoji">🍿</div>
     <div>
       <p class="muted" style="margin:0">Fielding</p>
-      <h1 style="margin:0.15rem 0;font-size:1.75rem">Ready Position</h1>
+      <h1 style="margin:.15rem 0;font-size:1.8rem">Ready Position</h1>
+      <div class="practice-row">
+        <button type="button" class="did-it" data-practice="skill:ready-position" data-kind="skill">✨ I practiced it!</button>
+        <button type="button" class="did-it home-btn" data-practice="home:ready-position" data-kind="home">🏠 I did the home drill!</button>
+      </div>
     </div>
   </header>
+
   <div class="cue-banner">
     <span class="big">Popcorn</span>
     <span><strong>Cue word</strong> — say only this while they move.</span>
   </div>
+
+  <section class="card">
+    <h2 class="watch-title">🎬 Watch it</h2>
+    <p class="muted" style="margin:0 0 .75rem">Short youth-friendly references — open on YouTube.</p>
+    <div class="videos triple"><a class="video-card" href="https://www.youtube.com/watch?v=OlI5Vs8kIrU" target="_blank" rel="noopener">
+  <div class="video-thumb-wrap">
+    <img src="https://img.youtube.com/vi/OlI5Vs8kIrU/hqdefault.jpg" alt="" loading="lazy" width="480" height="270">
+    <div class="play-btn" aria-hidden="true"></div>
+  </div>
+  <div class="video-info">
+    <strong>The Ready Position Drill 💪😎 #baseball #fieldingdrills #sports #baseballplayer #baseballshorts</strong>
+    <span class="ch">Bobby Brown Baseball</span>
+  </div>
+</a>
+<a class="video-card" href="https://www.youtube.com/watch?v=EZtJ9JNPE2k" target="_blank" rel="noopener">
+  <div class="video-thumb-wrap">
+    <img src="https://img.youtube.com/vi/EZtJ9JNPE2k/hqdefault.jpg" alt="" loading="lazy" width="480" height="270">
+    <div class="play-btn" aria-hidden="true"></div>
+  </div>
+  <div class="video-info">
+    <strong>3 SIMPLE Baseball Fielding Drills For Youth Players</strong>
+    <span class="ch">Ultimate Baseball Training</span>
+  </div>
+</a>
+<a class="video-card" href="https://www.youtube.com/watch?v=L4lO3t1YHxs" target="_blank" rel="noopener">
+  <div class="video-thumb-wrap">
+    <img src="https://img.youtube.com/vi/L4lO3t1YHxs/hqdefault.jpg" alt="" loading="lazy" width="480" height="270">
+    <div class="play-btn" aria-hidden="true"></div>
+  </div>
+  <div class="video-info">
+    <strong>Coaching Beginner Baseball | How to Field (Pro Speed Baseball)</strong>
+    <span class="ch">Pro Speed Baseball</span>
+  </div>
+</a></div>
+  </section>
+
   <section class="card">
     <h2>Why it matters</h2>
     <p style="margin:0;font-weight:600">Every play starts here. A good ready position means kids can move to the ball instead of reacting late from a standstill.</p>
   </section>
+
   <section class="card">
     <h2>How to</h2>
     <ol class="steps"><li>Feet wider than shoulders, weight on the balls of the feet.</li><li>Knees bent, hips down — like sitting on a low stool.</li><li>Glove open and out in front; throwing hand nearby.</li><li>Eyes up on the batter / ball — chest stays tall.</li></ol>
   </section>
+
   <section class="card">
     <h2>Common mistakes</h2>
-    <div class="mistake"><div class="bad">Standing straight up with hands at the sides</div><div class="fix">Cue "Popcorn!" and have them drop until their glove almost touches the grass.</div></div><div class="mistake"><div class="bad">Bending only at the waist (hunched over)</div><div class="fix">Ask "Can you still see my shirt logo?" Eyes up keeps the chest up.</div></div><div class="mistake"><div class="bad">Feet together or crossed when they shuffle</div><div class="fix">"Don't let your shoes kiss." Practice slow side-shuffles first.</div></div>
+    <div class="mistake"><div class="bad">Standing straight up with hands at the sides</div><div class="fix">Cue &quot;Popcorn!&quot; and have them drop until their glove almost touches the grass.</div></div><div class="mistake"><div class="bad">Bending only at the waist (hunched over)</div><div class="fix">Ask &quot;Can you still see my shirt logo?&quot; Eyes up keeps the chest up.</div></div><div class="mistake"><div class="bad">Feet together or crossed when they shuffle</div><div class="fix">&quot;Don&#x27;t let your shoes kiss.&quot; Practice slow side-shuffles first.</div></div>
   </section>
+
   <section class="card">
     <h2>Coach station drill</h2>
     <div class="drill-box">
       <span class="lbl">Practice · 4–5 min</span>
       <strong>Popcorn Freeze</strong>
-      <p style="margin:0.4rem 0 0"><strong>Setup:</strong> Open grass. Whole team jogs or skips in a 15×15 area.</p>
-      <p style="margin:0.4rem 0 0"><strong>How:</strong> Coach claps and yells "Popcorn!" Kids freeze in ready position for 2 seconds, then jog again. Do 8–10 pops. Fake a clap sometimes — kids who don't bite get a cheer, not an out. Keep lines nonexistent: everyone moves at once.</p>
+      <p style="margin:.4rem 0 0"><strong>Setup:</strong> Open grass. Whole team jogs or skips in a 15×15 area.</p>
+      <p style="margin:.4rem 0 0"><strong>How:</strong> Coach claps and yells &quot;Popcorn!&quot; Kids freeze in ready position for 2 seconds, then jog again. Do 8–10 pops. Fake a clap sometimes — kids who don&#x27;t bite get a cheer, not an out. Keep lines nonexistent: everyone moves at once.</p>
     </div>
   </section>
+
   <section class="card">
     <h2>10-minute at-home drill</h2>
     <div class="drill-box home">
       <span class="lbl">Home · 10 min</span>
       <strong>Living Room Popcorn</strong>
-      <p style="margin:0.4rem 0 0"><strong>Gear:</strong> Glove (or bare hands), open floor space</p>
-      <p style="margin:0.4rem 0 0"><strong>How:</strong> Parent claps "Popcorn!" while the child jogs in place or around the room. Hold ready 2 seconds. Add: after the pop, point left/right for two shuffle steps. Finish with 5 quiet "statue" holds.</p>
+      <p style="margin:.4rem 0 0"><strong>Gear:</strong> Glove (or bare hands), open floor space</p>
+      <p style="margin:.4rem 0 0"><strong>How:</strong> Parent claps &quot;Popcorn!&quot; while the child jogs in place or around the room. Hold ready 2 seconds. Add: after the pop, point left/right for two shuffle steps. Finish with 5 quiet &quot;statue&quot; holds.</p>
+    </div>
+    <div class="practice-row">
+      <button type="button" class="did-it home-btn" data-practice="home:ready-position" data-kind="home">🏠 I did the home drill!</button>
     </div>
   </section>
+
   <section class="card">
     <h2>Level up</h2>
     <div class="level-box">🚀 After popping, shuffle two steps the way you point, then pop again — without standing up first.</div>
   </section>
-  
 </main>
 
 <footer class="footer">
   <p>THE GOONIES · Cedar Park Youth League · 8U Coach Pitch</p>
-  <p>Goonies never say die! · <a href="https://github.com/GrrHero/goonies-baseball">GitHub</a></p>
+  <p>Goonies never say die! · Stars save on this phone · <a href="https://github.com/GrrHero/goonies-baseball">GitHub</a></p>
+  <p><button type="button" class="btn danger" data-reset-stars style="margin-top:.5rem">Reset stars</button></p>
 </footer>
 <script src="../assets/js/app.js" defer></script>
 </body>

@@ -9,81 +9,128 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&family=Nunito:wght@600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="../assets/css/app.css">
-  
 </head>
 <body>
 <nav class="topnav" aria-label="Main">
   <div class="topnav-inner">
-    <a class="brand" href="../index.html"><span class="brand-mark">⚾</span> <span>THE GOONIES</span></a>
+    <a class="brand" href="../index.html"><span>⚾</span> <span>THE GOONIES</span></a>
     <div class="nav-links">
       <a href="../index.html">Skills</a>
+      <a href="../videos.html">Videos</a>
       <a href="../coaches.html">Coaches</a>
       <a href="../parents.html">Parents</a>
       <a href="../cheat-sheet.html">Cue sheet</a>
     </div>
+    <div class="star-bank" title="Stars earned on this device">
+      <span class="ico">⭐</span>
+      <span data-star-count>0</span>
+      <span class="hint">on this phone</span>
+    </div>
   </div>
 </nav>
 
-<main class="wrap" id="skill-root">
+<main class="wrap" style="--accent:#00897b">
   <a class="back-link" href="../index.html">← All skills</a>
-  <header class="card" style="display:flex;gap:0.85rem;align-items:flex-start">
-    <div style="font-size:2.4rem;line-height:1">⚾</div>
+  <header class="card skill-hero">
+    <div class="big-emoji">⚾</div>
     <div>
       <p class="muted" style="margin:0">Game IQ</p>
-      <h1 style="margin:0.15rem 0;font-size:1.75rem">Game Basics</h1>
+      <h1 style="margin:.15rem 0;font-size:1.8rem">Game Basics</h1>
+      <div class="practice-row">
+        <button type="button" class="did-it" data-practice="skill:game-basics" data-kind="skill">✨ I practiced it!</button>
+        <button type="button" class="did-it home-btn" data-practice="home:game-basics" data-kind="home">🏠 I did the home drill!</button>
+      </div>
     </div>
   </header>
+
   <div class="cue-banner">
     <span class="big">Next</span>
     <span><strong>Cue word</strong> — say only this while they move.</span>
   </div>
+
+  <section class="card">
+    <h2 class="watch-title">🎬 Watch it</h2>
+    <p class="muted" style="margin:0 0 .75rem">Short youth-friendly references — open on YouTube.</p>
+    <div class="videos triple"><a class="video-card" href="https://www.youtube.com/watch?v=H8ccXY0SIIM" target="_blank" rel="noopener">
+  <div class="video-thumb-wrap">
+    <img src="https://img.youtube.com/vi/H8ccXY0SIIM/hqdefault.jpg" alt="" loading="lazy" width="480" height="270">
+    <div class="play-btn" aria-hidden="true"></div>
+  </div>
+  <div class="video-info">
+    <strong>Top 10 Tee Ball (&amp; &quot;Coach Pitch&quot;) Coaching Tips - [You MUST USE THIS SEASON to have MASSIVE SUCCESS]</strong>
+    <span class="ch">YouGoProBaseball</span>
+  </div>
+</a>
+<a class="video-card" href="https://www.youtube.com/watch?v=F4XD1EK_vX4" target="_blank" rel="noopener">
+  <div class="video-thumb-wrap">
+    <img src="https://img.youtube.com/vi/F4XD1EK_vX4/hqdefault.jpg" alt="" loading="lazy" width="480" height="270">
+    <div class="play-btn" aria-hidden="true"></div>
+  </div>
+  <div class="video-info">
+    <strong>Coaching Little League Coaches | YOUTH BASEBALL</strong>
+    <span class="ch">ZONEDSportsAcademy</span>
+  </div>
+</a>
+<a class="video-card" href="https://www.youtube.com/watch?v=B6iAY7jzw70" target="_blank" rel="noopener">
+  <div class="video-thumb-wrap">
+    <img src="https://img.youtube.com/vi/B6iAY7jzw70/hqdefault.jpg" alt="" loading="lazy" width="480" height="270">
+    <div class="play-btn" aria-hidden="true"></div>
+  </div>
+  <div class="video-info">
+    <strong>Coaching Youth Baseball: Running an Active Practice</strong>
+    <span class="ch">National Alliance for Youth Sports (NAYS)</span>
+  </div>
+</a></div>
+  </section>
+
   <section class="card">
     <h2>Why it matters</h2>
-    <p style="margin:0;font-weight:600">8U kids need a tiny playbook: where to stand, where to throw, what a force out is, and how to stay safe. Clear > clever.</p>
+    <p style="margin:0;font-weight:600">8U kids need a tiny playbook: where to stand, where to throw, what a force out is, and how to stay safe. Clear &gt; clever.</p>
   </section>
+
   <section class="card">
     <h2>How to</h2>
     <ol class="steps"><li>Know your starting spot (position cone) and face the batter in Popcorn ready.</li><li>Field it → throw to first unless a coach yells a different base.</li><li>Force out: when the runner must go, tag the base with the ball (feet on bag).</li><li>Safety always: helmet on in the box and on bases; bats only in the circle; stay in the dugout unless on deck.</li></ol>
   </section>
+
   <section class="card">
     <h2>Common mistakes</h2>
-    <div class="mistake"><div class="bad">Everyone chasing the ball (no one covers a base)</div><div class="fix">Freeze a play mid-demo: "Who has first?" Assign covers before the next rep.</div></div><div class="mistake"><div class="bad">Throwing to the wrong place in a panic</div><div class="fix">Default rule for new players: "When in doubt, to first." Celebrate that choice.</div></div><div class="mistake"><div class="bad">Swinging bats in the dugout / no helmet on bases</div><div class="fix">Team rule, enforced kindly every time. One reminder = sit one pitch.</div></div>
+    <div class="mistake"><div class="bad">Everyone chasing the ball (no one covers a base)</div><div class="fix">Freeze a play mid-demo: &quot;Who has first?&quot; Assign covers before the next rep.</div></div><div class="mistake"><div class="bad">Throwing to the wrong place in a panic</div><div class="fix">Default rule for new players: &quot;When in doubt, to first.&quot; Celebrate that choice.</div></div><div class="mistake"><div class="bad">Swinging bats in the dugout / no helmet on bases</div><div class="fix">Team rule, enforced kindly every time. One reminder = sit one pitch.</div></div>
   </section>
+
   <section class="card">
     <h2>Coach station drill</h2>
     <div class="drill-box">
       <span class="lbl">Practice · 5 min</span>
       <strong>Where Does It Go?</strong>
-      <p style="margin:0.4rem 0 0"><strong>Setup:</strong> Full infield spots with cones; coach with a ball (no bat needed).</p>
-      <p style="margin:0.4rem 0 0"><strong>How:</strong> Call a scenario ("Grounder to short — force at first!"). Kids field a roll and throw to the right base. Reset fast. 6–8 scenarios. Keep energy high; correct with one cue word.</p>
+      <p style="margin:.4rem 0 0"><strong>Setup:</strong> Full infield spots with cones; coach with a ball (no bat needed).</p>
+      <p style="margin:.4rem 0 0"><strong>How:</strong> Call a scenario (&quot;Grounder to short — force at first!&quot;). Kids field a roll and throw to the right base. Reset fast. 6–8 scenarios.</p>
     </div>
   </section>
+
   <section class="card">
     <h2>10-minute at-home drill</h2>
     <div class="drill-box home">
       <span class="lbl">Home · 10 min</span>
       <strong>Kitchen Diamond</strong>
-      <p style="margin:0.4rem 0 0"><strong>Gear:</strong> 4 placemats/shoes as bases, a soft ball</p>
-      <p style="margin:0.4rem 0 0"><strong>How:</strong> Walk through force outs vs. tag plays with one "runner" (parent) and one fielder (child). Ask: "Where do you throw?" before each roll. End with helmet/bat safety quiz (3 questions).</p>
+      <p style="margin:.4rem 0 0"><strong>Gear:</strong> 4 placemats/shoes as bases, a soft ball</p>
+      <p style="margin:.4rem 0 0"><strong>How:</strong> Walk through force outs vs. tag plays with one &quot;runner&quot; (parent) and one fielder (child). Ask: &quot;Where do you throw?&quot; before each roll. End with helmet/bat safety quiz (3 questions).</p>
+    </div>
+    <div class="practice-row">
+      <button type="button" class="did-it home-btn" data-practice="home:game-basics" data-kind="home">🏠 I did the home drill!</button>
     </div>
   </section>
+
   <section class="card">
     <h2>Level up</h2>
     <div class="level-box">🚀 Child coaches the parent through one force-out play using the cue words alone.</div>
   </section>
-  <section class="card"><h2>Watch</h2><div class="videos"><a class="video-card" href="https://www.youtube.com/watch?v=H8ccXY0SIIM" target="_blank" rel="noopener">
-        <img class="video-thumb" src="https://img.youtube.com/vi/H8ccXY0SIIM/hqdefault.jpg" alt="" loading="lazy" width="320" height="180">
-        <div class="video-info">
-          <strong>Top 10 Tee Ball (& "Coach Pitch") Coaching Tips</strong>
-          <span class="ch">YouGoProBaseball</span>
-          <span class="yt">▶ YouTube</span>
-        </div>
-      </a></div></section>
 </main>
 
 <footer class="footer">
   <p>THE GOONIES · Cedar Park Youth League · 8U Coach Pitch</p>
-  <p>Goonies never say die! · <a href="https://github.com/GrrHero/goonies-baseball">GitHub</a></p>
+  <p>Goonies never say die! · Stars save on this phone · <a href="https://github.com/GrrHero/goonies-baseball">GitHub</a></p>
+  <p><button type="button" class="btn danger" data-reset-stars style="margin-top:.5rem">Reset stars</button></p>
 </footer>
 <script src="../assets/js/app.js" defer></script>
 </body>

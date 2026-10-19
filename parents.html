@@ -9,17 +9,22 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&family=Nunito:wght@600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="assets/css/app.css">
-  
 </head>
 <body>
 <nav class="topnav" aria-label="Main">
   <div class="topnav-inner">
-    <a class="brand" href="index.html"><span class="brand-mark">⚾</span> <span>THE GOONIES</span></a>
+    <a class="brand" href="index.html"><span>⚾</span> <span>THE GOONIES</span></a>
     <div class="nav-links">
       <a href="index.html">Skills</a>
+      <a href="videos.html">Videos</a>
       <a href="coaches.html">Coaches</a>
       <a href="parents.html">Parents</a>
       <a href="cheat-sheet.html">Cue sheet</a>
+    </div>
+    <div class="star-bank" title="Stars earned on this device">
+      <span class="ico">⭐</span>
+      <span data-star-count>0</span>
+      <span class="hint">on this phone</span>
     </div>
   </div>
 </nav>
@@ -34,48 +39,74 @@
   <a class="back-link" href="index.html">← Skills home</a>
 
   <section class="card">
-    <h2>10 minutes a day — one week</h2>
-    <p class="muted">Pick a pocket of time after school or before dinner. Soft balls outdoors or socks indoors.</p>
-    <table class="plan-table">
-      <thead><tr><th>Day</th><th>Focus</th><th>Cue</th><th>Home drill</th></tr></thead>
-      <tbody>
-        <tr><td>Mon</td><td>Ready position</td><td>Popcorn</td><td>Living Room Popcorn</td></tr>
-        <tr><td>Tue</td><td>Throwing</td><td>Point, Step, Throw</td><td>Knock Down the Castle</td></tr>
-        <tr><td>Wed</td><td>Catching</td><td>Eyes on It</td><td>Couch Ladder</td></tr>
-        <tr><td>Thu</td><td>Grounders</td><td>Chomp</td><td>Fish in the Swamp</td></tr>
-        <tr><td>Fri</td><td>Hitting</td><td>Squish the Bug</td><td>Driveway Tee / Soft Toss</td></tr>
-        <tr><td>Sat</td><td>Base running</td><td>Through!</td><td>Mailbox First Base</td></tr>
-        <tr><td>Sun</td><td>Rest or play catch for fun</td><td>—</td><td>No coaching — just play</td></tr>
-      </tbody>
-    </table>
-    <p style="font-weight:600">Open the matching <a href="index.html">skill card</a> for gear lists and level-ups. Skip a day if energy is gone — consistency over perfection.</p>
+    <h2 class="watch-title">🎬 Watch it</h2>
+    <p class="muted" style="margin:0 0 .75rem">How to support without pressure.</p>
+    <div class="videos triple"><a class="video-card" href="https://www.youtube.com/watch?v=-mnGAQxC8RM" target="_blank" rel="noopener">
+  <div class="video-thumb-wrap">
+    <img src="https://img.youtube.com/vi/-mnGAQxC8RM/hqdefault.jpg" alt="" loading="lazy" width="480" height="270">
+    <div class="play-btn" aria-hidden="true"></div>
+  </div>
+  <div class="video-info">
+    <strong>2 Tips for Baseball Parents</strong>
+    <span class="ch">Antonelli Baseball</span>
+  </div>
+</a>
+<a class="video-card" href="https://www.youtube.com/watch?v=utOWkOoWJ3Q" target="_blank" rel="noopener">
+  <div class="video-thumb-wrap">
+    <img src="https://img.youtube.com/vi/utOWkOoWJ3Q/hqdefault.jpg" alt="" loading="lazy" width="480" height="270">
+    <div class="play-btn" aria-hidden="true"></div>
+  </div>
+  <div class="video-info">
+    <strong>Tips on How to Be a Supportive Baseball Parent | Chapter 64</strong>
+    <span class="ch">Kormans LLP</span>
+  </div>
+</a>
+<a class="video-card" href="https://www.youtube.com/watch?v=H8ccXY0SIIM" target="_blank" rel="noopener">
+  <div class="video-thumb-wrap">
+    <img src="https://img.youtube.com/vi/H8ccXY0SIIM/hqdefault.jpg" alt="" loading="lazy" width="480" height="270">
+    <div class="play-btn" aria-hidden="true"></div>
+  </div>
+  <div class="video-info">
+    <strong>Top 10 Tee Ball (&amp; &quot;Coach Pitch&quot;) Coaching Tips - [You MUST USE THIS SEASON to have MASSIVE SUCCESS]</strong>
+    <span class="ch">YouGoProBaseball</span>
+  </div>
+</a></div>
+  </section>
+
+  <section class="card">
+    <h2>10 minutes a day — checklist</h2>
+    <p class="muted">Stars save on this phone. Tick a day when you finish.</p>
+    <ul class="week-check" id="week-checklist">
+      <li><input type="checkbox" data-day="mon" id="day-mon"><label for="day-mon"><strong>Mon</strong> · Ready position · cue <em>Popcorn</em></label></li><li><input type="checkbox" data-day="tue" id="day-tue"><label for="day-tue"><strong>Tue</strong> · Throwing · cue <em>Point, Step, Throw</em></label></li><li><input type="checkbox" data-day="wed" id="day-wed"><label for="day-wed"><strong>Wed</strong> · Catching · cue <em>Eyes on It</em></label></li><li><input type="checkbox" data-day="thu" id="day-thu"><label for="day-thu"><strong>Thu</strong> · Grounders · cue <em>Chomp</em></label></li><li><input type="checkbox" data-day="fri" id="day-fri"><label for="day-fri"><strong>Fri</strong> · Hitting · cue <em>Squish the Bug</em></label></li><li><input type="checkbox" data-day="sat" id="day-sat"><label for="day-sat"><strong>Sat</strong> · Base running · cue <em>Through!</em></label></li><li><input type="checkbox" data-day="sun" id="day-sun"><label for="day-sun"><strong>Sun</strong> · Rest or fun catch · cue <em>—</em></label></li>
+    </ul>
   </section>
 
   <section class="card">
     <h2>Encourage without pressure</h2>
     <ul class="checklist">
-      <li><strong>Ask before you tell:</strong> “What made that throw feel good?” lets them own the learning.</li>
-      <li><strong>One cue only.</strong> If you give three tips, they hear none.</li>
-      <li><strong>End on a win.</strong> Last rep should be something they can succeed at.</li>
-      <li><strong>Compare to yesterday, not to teammates.</strong> “Farther than Monday” beats “why can’t you…”</li>
-      <li><strong>Your face matters.</strong> Kids read frustration faster than words. Take a water break if you need a reset.</li>
-      <li><strong>Fun is the retention strategy.</strong> If it’s a fight, shrink the task or switch to catch.</li>
+      <li><strong>Ask before you tell:</strong> “What made that throw feel good?”</li>
+      <li><strong>One cue only.</strong> Three tips = none stick.</li>
+      <li><strong>End on a win.</strong> Last rep should be succeed-able.</li>
+      <li><strong>Compare to yesterday,</strong> not to teammates.</li>
+      <li><strong>Your face matters.</strong> Take a water break if you need a reset.</li>
+      <li><strong>Fun is the retention strategy.</strong> Fighting? Shrink the task.</li>
     </ul>
   </section>
 
   <section class="card">
     <h2>Safety at home</h2>
     <ul class="checklist">
-      <li>Foam / wiffle / tennis balls near windows, cars, and siblings.</li>
-      <li>No hard baseballs for soft toss unless you have a net and space.</li>
-      <li>Helmet if you’re doing anything game-speed with a real bat and harder ball.</li>
+      <li>Foam / wiffle / tennis near windows, cars, and siblings.</li>
+      <li>No hard baseballs for soft toss without a net and space.</li>
+      <li>Helmet for anything game-speed with a real bat and harder ball.</li>
     </ul>
   </section>
 </main>
 
 <footer class="footer">
   <p>THE GOONIES · Cedar Park Youth League · 8U Coach Pitch</p>
-  <p>Goonies never say die! · <a href="https://github.com/GrrHero/goonies-baseball">GitHub</a></p>
+  <p>Goonies never say die! · Stars save on this phone · <a href="https://github.com/GrrHero/goonies-baseball">GitHub</a></p>
+  <p><button type="button" class="btn danger" data-reset-stars style="margin-top:.5rem">Reset stars</button></p>
 </footer>
 <script src="assets/js/app.js" defer></script>
 </body>
