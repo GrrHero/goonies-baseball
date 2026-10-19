@@ -1,0 +1,484 @@
+{
+  "team": "THE GOONIES",
+  "tagline": "Goonies never say die!",
+  "league": "Cedar Park Youth League · 8U Coach Pitch",
+  "skills": [
+    {
+      "id": "ready-position",
+      "name": "Ready Position",
+      "emoji": "🍿",
+      "category": "Fielding",
+      "cue": "Popcorn",
+      "why": "Every play starts here. A good ready position means kids can move to the ball instead of reacting late from a standstill.",
+      "steps": [
+        "Feet wider than shoulders, weight on the balls of the feet.",
+        "Knees bent, hips down — like sitting on a low stool.",
+        "Glove open and out in front; throwing hand nearby.",
+        "Eyes up on the batter / ball — chest stays tall."
+      ],
+      "mistakes": [
+        {
+          "bad": "Standing straight up with hands at the sides",
+          "fix": "Cue \"Popcorn!\" and have them drop until their glove almost touches the grass."
+        },
+        {
+          "bad": "Bending only at the waist (hunched over)",
+          "fix": "Ask \"Can you still see my shirt logo?\" Eyes up keeps the chest up."
+        },
+        {
+          "bad": "Feet together or crossed when they shuffle",
+          "fix": "\"Don't let your shoes kiss.\" Practice slow side-shuffles first."
+        }
+      ],
+      "coach_drill": {
+        "name": "Popcorn Freeze",
+        "time": "4–5 min",
+        "setup": "Open grass. Whole team jogs or skips in a 15×15 area.",
+        "how": "Coach claps and yells \"Popcorn!\" Kids freeze in ready position for 2 seconds, then jog again. Do 8–10 pops. Fake a clap sometimes — kids who don't bite get a cheer, not an out. Keep lines nonexistent: everyone moves at once."
+      },
+      "home_drill": {
+        "name": "Living Room Popcorn",
+        "time": "10 min",
+        "gear": "Glove (or bare hands), open floor space",
+        "how": "Parent claps \"Popcorn!\" while the child jogs in place or around the room. Hold ready 2 seconds. Add: after the pop, point left/right for two shuffle steps. Finish with 5 quiet \"statue\" holds."
+      },
+      "level_up": "After popping, shuffle two steps the way you point, then pop again — without standing up first.",
+      "videos": []
+    },
+    {
+      "id": "throwing",
+      "name": "Throwing",
+      "emoji": "🎯",
+      "category": "Throwing",
+      "cue": "Point, Step, Throw",
+      "why": "Accurate throws get outs and keep teammates safe. At 8U, kids need a simple pattern: aim, step, throw over the top — not a push or sidearm dart.",
+      "steps": [
+        "Grip: fingertips on the seams (two or four seam is fine); not deep in the palm.",
+        "Stand sideways; glove-side shoulder and glove point at the target.",
+        "Show the ball back (away from the head), step with the front foot toward the target.",
+        "Throw over the top; finish with the throwing hand by the opposite pocket."
+      ],
+      "mistakes": [
+        {
+          "bad": "Facing the target square and pushing the ball",
+          "fix": "Put feet on a line aimed at the target. \"Look over your glove shoulder.\""
+        },
+        {
+          "bad": "Stepping with the wrong foot (same as throwing arm)",
+          "fix": "Place a sock/cone in front of the glove-side foot: \"Step on the sock.\""
+        },
+        {
+          "bad": "Sidearm or stopping the arm at release",
+          "fix": "\"Throw over a fence\" and touch the opposite pocket after every throw."
+        }
+      ],
+      "coach_drill": {
+        "name": "Partner Target Lines",
+        "time": "5 min",
+        "setup": "Two parallel lines of kids, 20–30 ft apart (closer for newer throwers). One ball per pair.",
+        "how": "On \"Point!\" kids freeze aimed; on \"Throw!\" they complete the throw. Rotate partners every 6 throws. Coaches walk the middle cueing — not long lines waiting. Extra coach = quick \"fix it\" station to the side for anyone struggling."
+      },
+      "home_drill": {
+        "name": "Knock Down the Castle",
+        "time": "10 min",
+        "gear": "Tennis/foam balls, empty cups or water bottles, a fence/wall target",
+        "how": "Stack a cup castle on a bench. Child uses Point-Step-Throw from 15–25 feet. Score: knock-downs. Step back after 3 hits in a row."
+      },
+      "level_up": "Add a small crow-hop (\"Scoot\") before the throw, and finish balanced for 2 seconds.",
+      "videos": [
+        {
+          "id": "o3Qz0LtQZ_I",
+          "title": "Basic Throwing Mechanics | Baseball Drills",
+          "channel": "GoDog Sports",
+          "url": "https://www.youtube.com/watch?v=o3Qz0LtQZ_I",
+          "thumb": "https://img.youtube.com/vi/o3Qz0LtQZ_I/hqdefault.jpg"
+        },
+        {
+          "id": "bjJs_yu6fvw",
+          "title": "Baseball Throwing | Basic Techniques",
+          "channel": "Schupak Sports",
+          "url": "https://www.youtube.com/watch?v=bjJs_yu6fvw",
+          "thumb": "https://img.youtube.com/vi/bjJs_yu6fvw/hqdefault.jpg"
+        }
+      ]
+    },
+    {
+      "id": "crow-hop",
+      "name": "Crow Hop",
+      "emoji": "🦘",
+      "category": "Throwing",
+      "cue": "Scoot",
+      "why": "After fielding, a small crow hop loads the body so the throw to first has zip without arm-only effort. Keep it a scoot — not a long jump.",
+      "steps": [
+        "Field the ball and bring it to the belly/chest.",
+        "Small hop forward; back foot lands sideways (skateboard stance).",
+        "Front foot steps straight at the target (usually first base).",
+        "Throw and finish to the opposite pocket; stay balanced."
+      ],
+      "mistakes": [
+        {
+          "bad": "Huge hop that throws them off balance",
+          "fix": "\"Mouse hop, not kangaroo.\" Mark two shoe-widths and hop only that far."
+        },
+        {
+          "bad": "Hopping before they have the ball",
+          "fix": "\"No tock without a tick.\" Throw only counts after a clean field."
+        },
+        {
+          "bad": "Hopping toward home instead of first",
+          "fix": "Lay a rope/line from fielding spot toward first: hop along the line."
+        }
+      ],
+      "coach_drill": {
+        "name": "Scoot to the Bucket",
+        "time": "5 min",
+        "setup": "Roller coach + pile of balls; laundry basket/bucket at \"first\" ~30–40 ft. Groups of 3–4 rotate in.",
+        "how": "Roll a grounder. Kid fields, scoots, throws to the bucket. Next kid is already in ready. 4–5 reps each then rotate — never more than one waiting."
+      },
+      "home_drill": {
+        "name": "Tick-Tock to the Chair",
+        "time": "10 min",
+        "gear": "Glove, soft balls, laundry basket on a chair as first base",
+        "how": "Parent rolls grounders. Child says \"tick\" on the catch and \"tock\" on the crow-hop throw into the basket. First to 7 outs wins."
+      },
+      "level_up": "Field a ball one step to either side, then crow-hop throw without resetting the feet first.",
+      "videos": [
+        {
+          "id": "98nYdcKaSsM",
+          "title": "Youth Baseball Drills: Throw with Crow Hop",
+          "channel": "PlaySportsTV",
+          "url": "https://www.youtube.com/watch?v=98nYdcKaSsM",
+          "thumb": "https://img.youtube.com/vi/98nYdcKaSsM/hqdefault.jpg"
+        },
+        {
+          "id": "PfmEL02N0ns",
+          "title": "Crow Hop + Throwing Progression Drill",
+          "channel": "MegRem Softball",
+          "url": "https://www.youtube.com/watch?v=PfmEL02N0ns",
+          "thumb": "https://img.youtube.com/vi/PfmEL02N0ns/hqdefault.jpg"
+        }
+      ]
+    },
+    {
+      "id": "catching",
+      "name": "Catching",
+      "emoji": "🧤",
+      "category": "Catching",
+      "cue": "Eyes on It",
+      "why": "Catching builds confidence. Start close and soft so kids succeed often; thumbs together for high balls, pinkies together for low balls, two hands always.",
+      "steps": [
+        "Eyes track the ball all the way into the glove.",
+        "High ball: thumbs together, fingers up (like a window).",
+        "Low ball: pinkies together, glove down (bowl / alligator bottom).",
+        "Two hands: throwing hand covers / secures as soon as it hits."
+      ],
+      "mistakes": [
+        {
+          "bad": "Turning the head or closing eyes",
+          "fix": "Use a foam/tennis ball and start 6–8 feet away. Success first, distance later."
+        },
+        {
+          "bad": "One-handing every catch",
+          "fix": "Only award a point when the bare hand covers. Scoring coaches better than lectures."
+        },
+        {
+          "bad": "Glove flipping the wrong way (fingers down on a high toss)",
+          "fix": "Freeze before the toss: \"Show me window or bowl?\" Then toss."
+        }
+      ],
+      "coach_drill": {
+        "name": "Catch Ladder Partners",
+        "time": "5 min",
+        "setup": "Pairs with tennis balls across the infield grass.",
+        "how": "Start close. Every clean catch = one step back; a drop = one step forward. 90 seconds, then new partner. Coaches float and spot-fix glove shape — no single-file line."
+      },
+      "home_drill": {
+        "name": "Couch Ladder",
+        "time": "10 min",
+        "gear": "Soft ball or rolled socks, glove optional",
+        "how": "Underhand tosses from a few steps away. Eyes on it + two hands. Step back on catches. Mix high (window) and low (bowl) on purpose."
+      },
+      "level_up": "Catch 5 in a row, then take three giant steps back and try again.",
+      "videos": [
+        {
+          "id": "2mRuWPJS64E",
+          "title": "How to Teach Baseball Catching to 5-7 Year Olds",
+          "channel": "DNA Sports",
+          "url": "https://www.youtube.com/watch?v=2mRuWPJS64E",
+          "thumb": "https://img.youtube.com/vi/2mRuWPJS64E/hqdefault.jpg"
+        },
+        {
+          "id": "6T5WWG1E8WM",
+          "title": "How To Teach 6-8 Year Olds To Catch A Baseball",
+          "channel": "Antonelli Baseball",
+          "url": "https://www.youtube.com/watch?v=6T5WWG1E8WM",
+          "thumb": "https://img.youtube.com/vi/6T5WWG1E8WM/hqdefault.jpg"
+        }
+      ]
+    },
+    {
+      "id": "grounders",
+      "name": "Fielding Grounders",
+      "emoji": "🐊",
+      "category": "Fielding",
+      "cue": "Chomp",
+      "why": "Most 8U balls are on the ground. Glove in the dirt out in front, top hand chomps like an alligator, then up to the belly — that sequence prevents \"through the gate\" misses.",
+      "steps": [
+        "Start in Popcorn ready; see the ball off the bat / roll.",
+        "Move so the ball comes to the middle of your body.",
+        "Glove down to the grass out in front (fingers touch dirt).",
+        "Top hand CHOMPS on top; gather to the belt / belly."
+      ],
+      "mistakes": [
+        {
+          "bad": "Glove up so the ball rolls under (\"through the gate\")",
+          "fix": "\"Glove eats grass first.\" Place a leaf in the glove they must show you before the roll."
+        },
+        {
+          "bad": "Fielding between the feet / under the body",
+          "fix": "Put a cone a half-step in front of the toes: \"Chomp it at the cone.\""
+        },
+        {
+          "bad": "Reaching with the glove while feet stay planted",
+          "fix": "Roll slightly to the side and celebrate when feet shuffle first: \"Middle!\""
+        }
+      ],
+      "coach_drill": {
+        "name": "Alligator Wave",
+        "time": "5 min",
+        "setup": "Two coaches rolling; kids in two short lines of 3–4 (or a semicircle if one coach).",
+        "how": "Roll straight, slow grounders. Kid chomps, flips back, goes to the end. Next kid is already ready. 8–10 reps each. No 10-kid single line — split groups."
+      },
+      "home_drill": {
+        "name": "Fish in the Swamp",
+        "time": "10 min",
+        "gear": "Glove, tennis balls, open driveway/yard",
+        "how": "Parent rolls \"fish.\" Child is the alligator. Count fish eaten. Balls that get past swim to the ocean (parent scores). First to 10."
+      },
+      "level_up": "After a clean chomp, crow-hop throw to a bucket \"first base\" for a bonus point.",
+      "videos": [
+        {
+          "id": "jzilP9aE10Y",
+          "title": "Alligator hands",
+          "channel": "Coach DiLena Baseball",
+          "url": "https://www.youtube.com/watch?v=jzilP9aE10Y",
+          "thumb": "https://img.youtube.com/vi/jzilP9aE10Y/hqdefault.jpg"
+        }
+      ]
+    },
+    {
+      "id": "fly-balls",
+      "name": "Fly Balls & Pop-Ups",
+      "emoji": "☔",
+      "category": "Catching",
+      "cue": "Umbrella",
+      "why": "Pop-ups are scary at this age. Safety first: call it, get under it early, glove up like an umbrella. Start with balloons/soft balls before real baseballs.",
+      "steps": [
+        "Find the ball early; call \"Mine!\" loud (one person).",
+        "Run to where it will land — get under it, don't drift late.",
+        "Glove up above the head like an umbrella (fingers to the sky).",
+        "Two hands; soft catch. If unsure, let it drop — no collisions."
+      ],
+      "mistakes": [
+        {
+          "bad": "Running with the glove already stuck up (can't see / balance)",
+          "fix": "Run with glove ready at chest; raise umbrella only at the last moment."
+        },
+        {
+          "bad": "Two kids converging without calling",
+          "fix": "Rule: loud \"Mine!\" wins. Practice calling on every toss at practice."
+        },
+        {
+          "bad": "Backing up flat-footed under a ball over the head",
+          "fix": "Teach a drop-step turn; use balloons first so fear stays low."
+        }
+      ],
+      "coach_drill": {
+        "name": "Umbrella Raindrops",
+        "time": "5 min",
+        "setup": "Coach with soft balls/balloons; kids spaced in an arc (not clustered).",
+        "how": "High soft tosses one at a time to a named player. Everyone else freezes. Rotate names quickly so wait time stays short. Emphasize call + umbrella."
+      },
+      "home_drill": {
+        "name": "Rainstorm",
+        "time": "10 min",
+        "gear": "Balloons or soft balls, open yard",
+        "how": "Parent tosses gentle \"rain.\" Child gets under and umbrella-catches. Count consecutive catches. Progress to tennis balls only when confident."
+      },
+      "level_up": "Catch 5 raindrops in a row, then take one step farther from the tosser.",
+      "videos": [
+        {
+          "id": "_QC-pBhoZWg",
+          "title": "How to Teach Kids How to Catch Fly Balls",
+          "channel": "Coach Dan Blewett",
+          "url": "https://www.youtube.com/watch?v=_QC-pBhoZWg",
+          "thumb": "https://img.youtube.com/vi/_QC-pBhoZWg/hqdefault.jpg"
+        }
+      ]
+    },
+    {
+      "id": "hitting",
+      "name": "Hitting",
+      "emoji": "🏏",
+      "category": "Hitting",
+      "cue": "Squish the Bug",
+      "why": "Coach-pitch success starts with a balanced stance, a simple load, and eyes on the ball. Tee and soft toss build the swing before live arm speed.",
+      "steps": [
+        "Stance: feet wider than shoulders, athletic bend, eyes level.",
+        "Load / rock: hands and weight shift slightly back (quiet, not a huge step).",
+        "Stride soft toward the pitcher; swing level through the ball.",
+        "Back foot rotates — \"squish the bug\" — and finish balanced with belly button toward the field."
+      ],
+      "mistakes": [
+        {
+          "bad": "Stepping in the bucket (away from the plate) or falling over",
+          "fix": "Tee work with a line under the feet. \"Squish and freeze\" for 2 seconds after contact."
+        },
+        {
+          "bad": "Uppercutting / eyes pulling off early",
+          "fix": "Tee at mid-thigh; cue \"Eyes on the ball\" through contact. Soft toss from the side."
+        },
+        {
+          "bad": "Giant load that ruins timing",
+          "fix": "Shrink the load to a tiny rock. Rhythm: \"Rock… step… squish.\""
+        }
+      ],
+      "coach_drill": {
+        "name": "Tee + Soft-Toss Carousel",
+        "time": "8–10 min (station)",
+        "setup": "2 tees + 1 soft-toss net/open space; groups of 3–4 per station.",
+        "how": "5 swings each, then rotate stations. Waiting kids shag or on-deck freeze swings (no live bats in the crowd). One coach per station; short lines only."
+      },
+      "home_drill": {
+        "name": "Driveway Tee / Soft Toss",
+        "time": "10 min",
+        "gear": "Tee or stacked bucket, wiffle/foam balls, bat, open space away from windows",
+        "how": "10 tee swings with Squish the Bug. Then 8 soft tosses from a parent kneeling slightly off to the side (foam only). Freeze the finish each time."
+      },
+      "level_up": "Call a target (up the middle / opposite field) before the toss and try to hit that gate.",
+      "videos": [
+        {
+          "id": "dTDIriJq_6Y",
+          "title": "LITTLE LEAGUE tee ball newspaper toss",
+          "channel": "Schupak Sports",
+          "url": "https://www.youtube.com/watch?v=dTDIriJq_6Y",
+          "thumb": "https://img.youtube.com/vi/dTDIriJq_6Y/hqdefault.jpg"
+        },
+        {
+          "id": "rV3EQ5tHcNE",
+          "title": "How to Soft Toss | YOUTH BASEBALL AND SOFTBALL",
+          "channel": "Dominate The Diamond",
+          "url": "https://www.youtube.com/watch?v=rV3EQ5tHcNE",
+          "thumb": "https://img.youtube.com/vi/rV3EQ5tHcNE/hqdefault.jpg"
+        },
+        {
+          "id": "Re0coPbz55M",
+          "title": "Ripken Baseball Hitting Tip - Basic Front Toss",
+          "channel": "Ripken Baseball",
+          "url": "https://www.youtube.com/watch?v=Re0coPbz55M",
+          "thumb": "https://img.youtube.com/vi/Re0coPbz55M/hqdefault.jpg"
+        }
+      ]
+    },
+    {
+      "id": "base-running",
+      "name": "Base Running",
+      "emoji": "🏃",
+      "category": "Running",
+      "cue": "Through!",
+      "why": "Outs at first often happen because kids slow down on the bag. Run through first, listen for the coach, and learn when to round vs. stop.",
+      "steps": [
+        "On a ground ball to the infield: sprint hard — don't watch the ball.",
+        "Run straight through first base; break down after the bag.",
+        "Listen for coach: \"Through!\" vs. \"Round!\" vs. \"Back!\"",
+        "On extras: touch the inside corner and pick up the next coach."
+      ],
+      "mistakes": [
+        {
+          "bad": "Slowing down or stopping ON first base",
+          "fix": "Put tape/a cone 2 steps past first. \"Break the tape.\" Race through every time."
+        },
+        {
+          "bad": "Watching the ball instead of running",
+          "fix": "Drill with no fielders first — pure sprint on contact. Eyes on the base coach."
+        },
+        {
+          "bad": "Rounding when they should run through (or vice versa)",
+          "fix": "Simple code words only. Practice both on purpose in the same station."
+        }
+      ],
+      "coach_drill": {
+        "name": "Break the Tape",
+        "time": "4–5 min",
+        "setup": "First base + a ribbon/tape held 2 steps past; or a coach with arms as the finish line.",
+        "how": "Kids line up at home in groups of 3. On clap, sprint through first and break the tape. Jog back wide. Next group goes — continuous flow, ~15 seconds between groups."
+      },
+      "home_drill": {
+        "name": "Mailbox First Base",
+        "time": "10 min",
+        "gear": "A towel/base as first, chalk or tape finish line past it",
+        "how": "From a pretend home plate, parent says \"Hit!\" Child sprints through first past the line. Mix in \"Round!\" toward second sometimes. Time 3 reps and try to beat the best."
+      },
+      "level_up": "Hit an imaginary ball, run through first, then quickly locate where the ball would be (point to it).",
+      "videos": [
+        {
+          "id": "b0xQ3p4L6sU",
+          "title": "Little League Tee Ball Baserunning Drill",
+          "channel": "Schupak Sports",
+          "url": "https://www.youtube.com/watch?v=b0xQ3p4L6sU",
+          "thumb": "https://img.youtube.com/vi/b0xQ3p4L6sU/hqdefault.jpg"
+        }
+      ]
+    },
+    {
+      "id": "game-basics",
+      "name": "Game Basics",
+      "emoji": "⚾",
+      "category": "Game IQ",
+      "cue": "Next",
+      "why": "8U kids need a tiny playbook: where to stand, where to throw, what a force out is, and how to stay safe. Clear > clever.",
+      "steps": [
+        "Know your starting spot (position cone) and face the batter in Popcorn ready.",
+        "Field it → throw to first unless a coach yells a different base.",
+        "Force out: when the runner must go, tag the base with the ball (feet on bag).",
+        "Safety always: helmet on in the box and on bases; bats only in the circle; stay in the dugout unless on deck."
+      ],
+      "mistakes": [
+        {
+          "bad": "Everyone chasing the ball (no one covers a base)",
+          "fix": "Freeze a play mid-demo: \"Who has first?\" Assign covers before the next rep."
+        },
+        {
+          "bad": "Throwing to the wrong place in a panic",
+          "fix": "Default rule for new players: \"When in doubt, to first.\" Celebrate that choice."
+        },
+        {
+          "bad": "Swinging bats in the dugout / no helmet on bases",
+          "fix": "Team rule, enforced kindly every time. One reminder = sit one pitch."
+        }
+      ],
+      "coach_drill": {
+        "name": "Where Does It Go?",
+        "time": "5 min",
+        "setup": "Full infield spots with cones; coach with a ball (no bat needed).",
+        "how": "Call a scenario (\"Grounder to short — force at first!\"). Kids field a roll and throw to the right base. Reset fast. 6–8 scenarios. Keep energy high; correct with one cue word."
+      },
+      "home_drill": {
+        "name": "Kitchen Diamond",
+        "time": "10 min",
+        "gear": "4 placemats/shoes as bases, a soft ball",
+        "how": "Walk through force outs vs. tag plays with one \"runner\" (parent) and one fielder (child). Ask: \"Where do you throw?\" before each roll. End with helmet/bat safety quiz (3 questions)."
+      },
+      "level_up": "Child coaches the parent through one force-out play using the cue words alone.",
+      "videos": [
+        {
+          "id": "H8ccXY0SIIM",
+          "title": "Top 10 Tee Ball (& \"Coach Pitch\") Coaching Tips",
+          "channel": "YouGoProBaseball",
+          "url": "https://www.youtube.com/watch?v=H8ccXY0SIIM",
+          "thumb": "https://img.youtube.com/vi/H8ccXY0SIIM/hqdefault.jpg"
+        }
+      ]
+    }
+  ]
+}
